@@ -1,0 +1,1538 @@
+{
+  "experiment_name": "Task Performance Comparison",
+  "experiment_type": "task_execution_quality",
+  "hypothesis": "Optimal sequence varies by task type",
+  "start_time": "2026-01-06T09:03:36.211316",
+  "end_time": "2026-01-06T09:03:36.212681",
+  "total_trials": 45,
+  "trials": [
+    {
+      "trial_id": 0,
+      "timestamp": "2026-01-06T09:03:36.211316",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "task_type": "motor",
+        "experience_level": 15.0,
+        "run": 0
+      },
+      "output_metrics": {
+        "M4D": 1.2455499393929088,
+        "accuracy": 31.13874848482272,
+        "speed": 12.455499393929088,
+        "quality": 1.3014676392274032,
+        "composite_score": 14.96523850599307
+      },
+      "M4D_score": 1.2455499393929088,
+      "processing_time": 0.8028582141695645,
+      "notes": "motor task"
+    },
+    {
+      "trial_id": 1,
+      "timestamp": "2026-01-06T09:03:36.211348",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "task_type": "motor",
+        "experience_level": 15.0,
+        "run": 1
+      },
+      "output_metrics": {
+        "M4D": 1.2455499393929088,
+        "accuracy": 31.13874848482272,
+        "speed": 12.455499393929088,
+        "quality": 1.3014676392274032,
+        "composite_score": 14.96523850599307
+      },
+      "M4D_score": 1.2455499393929088,
+      "processing_time": 0.8028582141695645,
+      "notes": "motor task"
+    },
+    {
+      "trial_id": 2,
+      "timestamp": "2026-01-06T09:03:36.211379",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "task_type": "motor",
+        "experience_level": 15.0,
+        "run": 2
+      },
+      "output_metrics": {
+        "M4D": 1.2455499393929088,
+        "accuracy": 31.13874848482272,
+        "speed": 12.455499393929088,
+        "quality": 1.3014676392274032,
+        "composite_score": 14.96523850599307
+      },
+      "M4D_score": 1.2455499393929088,
+      "processing_time": 0.8028582141695645,
+      "notes": "motor task"
+    },
+    {
+      "trial_id": 3,
+      "timestamp": "2026-01-06T09:03:36.211410",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "motor",
+        "experience_level": 15.0,
+        "run": 0
+      },
+      "output_metrics": {
+        "M4D": 2.5287901410287525,
+        "accuracy": 63.219753525718815,
+        "speed": 25.287901410287525,
+        "quality": 3.044355376948791,
+        "composite_score": 30.51733677098504
+      },
+      "M4D_score": 2.5287901410287525,
+      "processing_time": 0.39544602131088025,
+      "notes": "motor task"
+    },
+    {
+      "trial_id": 4,
+      "timestamp": "2026-01-06T09:03:36.211441",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "motor",
+        "experience_level": 15.0,
+        "run": 1
+      },
+      "output_metrics": {
+        "M4D": 2.5287901410287525,
+        "accuracy": 63.219753525718815,
+        "speed": 25.287901410287525,
+        "quality": 3.044355376948791,
+        "composite_score": 30.51733677098504
+      },
+      "M4D_score": 2.5287901410287525,
+      "processing_time": 0.39544602131088025,
+      "notes": "motor task"
+    },
+    {
+      "trial_id": 5,
+      "timestamp": "2026-01-06T09:03:36.211474",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "motor",
+        "experience_level": 15.0,
+        "run": 2
+      },
+      "output_metrics": {
+        "M4D": 2.5287901410287525,
+        "accuracy": 63.219753525718815,
+        "speed": 25.287901410287525,
+        "quality": 3.044355376948791,
+        "composite_score": 30.51733677098504
+      },
+      "M4D_score": 2.5287901410287525,
+      "processing_time": 0.39544602131088025,
+      "notes": "motor task"
+    },
+    {
+      "trial_id": 6,
+      "timestamp": "2026-01-06T09:03:36.211505",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "motor",
+        "experience_level": 15.0,
+        "run": 0
+      },
+      "output_metrics": {
+        "M4D": 3.344814587389009,
+        "accuracy": 83.62036468472522,
+        "speed": 33.44814587389009,
+        "quality": 4.258400050425378,
+        "composite_score": 40.4423035363469
+      },
+      "M4D_score": 3.344814587389009,
+      "processing_time": 0.29897023403638306,
+      "notes": "motor task"
+    },
+    {
+      "trial_id": 7,
+      "timestamp": "2026-01-06T09:03:36.211535",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "motor",
+        "experience_level": 15.0,
+        "run": 1
+      },
+      "output_metrics": {
+        "M4D": 3.344814587389009,
+        "accuracy": 83.62036468472522,
+        "speed": 33.44814587389009,
+        "quality": 4.258400050425378,
+        "composite_score": 40.4423035363469
+      },
+      "M4D_score": 3.344814587389009,
+      "processing_time": 0.29897023403638306,
+      "notes": "motor task"
+    },
+    {
+      "trial_id": 8,
+      "timestamp": "2026-01-06T09:03:36.211566",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "motor",
+        "experience_level": 15.0,
+        "run": 2
+      },
+      "output_metrics": {
+        "M4D": 3.344814587389009,
+        "accuracy": 83.62036468472522,
+        "speed": 33.44814587389009,
+        "quality": 4.258400050425378,
+        "composite_score": 40.4423035363469
+      },
+      "M4D_score": 3.344814587389009,
+      "processing_time": 0.29897023403638306,
+      "notes": "motor task"
+    },
+    {
+      "trial_id": 9,
+      "timestamp": "2026-01-06T09:03:36.211600",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "task_type": "cognitive",
+        "experience_level": 15.0,
+        "run": 0
+      },
+      "output_metrics": {
+        "M4D": 1.3770734839003762,
+        "accuracy": 34.426837097509406,
+        "speed": 13.770734839003762,
+        "quality": 1.4680760004039717,
+        "composite_score": 16.55521597897238
+      },
+      "M4D_score": 1.3770734839003762,
+      "processing_time": 0.7261776598643334,
+      "notes": "cognitive task"
+    },
+    {
+      "trial_id": 10,
+      "timestamp": "2026-01-06T09:03:36.211631",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "task_type": "cognitive",
+        "experience_level": 15.0,
+        "run": 1
+      },
+      "output_metrics": {
+        "M4D": 1.3770734839003762,
+        "accuracy": 34.426837097509406,
+        "speed": 13.770734839003762,
+        "quality": 1.4680760004039717,
+        "composite_score": 16.55521597897238
+      },
+      "M4D_score": 1.3770734839003762,
+      "processing_time": 0.7261776598643334,
+      "notes": "cognitive task"
+    },
+    {
+      "trial_id": 11,
+      "timestamp": "2026-01-06T09:03:36.211661",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "task_type": "cognitive",
+        "experience_level": 15.0,
+        "run": 2
+      },
+      "output_metrics": {
+        "M4D": 1.3770734839003762,
+        "accuracy": 34.426837097509406,
+        "speed": 13.770734839003762,
+        "quality": 1.4680760004039717,
+        "composite_score": 16.55521597897238
+      },
+      "M4D_score": 1.3770734839003762,
+      "processing_time": 0.7261776598643334,
+      "notes": "cognitive task"
+    },
+    {
+      "trial_id": 12,
+      "timestamp": "2026-01-06T09:03:36.211692",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "cognitive",
+        "experience_level": 15.0,
+        "run": 0
+      },
+      "output_metrics": {
+        "M4D": 3.0033376724812824,
+        "accuracy": 75.08344181203206,
+        "speed": 30.033376724812825,
+        "quality": 3.7421827840340063,
+        "composite_score": 36.286333773626296
+      },
+      "M4D_score": 3.0033376724812824,
+      "processing_time": 0.33296289297161347,
+      "notes": "cognitive task"
+    },
+    {
+      "trial_id": 13,
+      "timestamp": "2026-01-06T09:03:36.211722",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "cognitive",
+        "experience_level": 15.0,
+        "run": 1
+      },
+      "output_metrics": {
+        "M4D": 3.0033376724812824,
+        "accuracy": 75.08344181203206,
+        "speed": 30.033376724812825,
+        "quality": 3.7421827840340063,
+        "composite_score": 36.286333773626296
+      },
+      "M4D_score": 3.0033376724812824,
+      "processing_time": 0.33296289297161347,
+      "notes": "cognitive task"
+    },
+    {
+      "trial_id": 14,
+      "timestamp": "2026-01-06T09:03:36.211753",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "cognitive",
+        "experience_level": 15.0,
+        "run": 2
+      },
+      "output_metrics": {
+        "M4D": 3.0033376724812824,
+        "accuracy": 75.08344181203206,
+        "speed": 30.033376724812825,
+        "quality": 3.7421827840340063,
+        "composite_score": 36.286333773626296
+      },
+      "M4D_score": 3.0033376724812824,
+      "processing_time": 0.33296289297161347,
+      "notes": "cognitive task"
+    },
+    {
+      "trial_id": 15,
+      "timestamp": "2026-01-06T09:03:36.211783",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "cognitive",
+        "experience_level": 15.0,
+        "run": 0
+      },
+      "output_metrics": {
+        "M4D": 3.9883068695854456,
+        "accuracy": 95,
+        "speed": 39.883068695854455,
+        "quality": 5.259522046077679,
+        "composite_score": 46.71419691397738
+      },
+      "M4D_score": 3.9883068695854456,
+      "processing_time": 0.2507329633098023,
+      "notes": "cognitive task"
+    },
+    {
+      "trial_id": 16,
+      "timestamp": "2026-01-06T09:03:36.211814",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "cognitive",
+        "experience_level": 15.0,
+        "run": 1
+      },
+      "output_metrics": {
+        "M4D": 3.9883068695854456,
+        "accuracy": 95,
+        "speed": 39.883068695854455,
+        "quality": 5.259522046077679,
+        "composite_score": 46.71419691397738
+      },
+      "M4D_score": 3.9883068695854456,
+      "processing_time": 0.2507329633098023,
+      "notes": "cognitive task"
+    },
+    {
+      "trial_id": 17,
+      "timestamp": "2026-01-06T09:03:36.211845",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "cognitive",
+        "experience_level": 15.0,
+        "run": 2
+      },
+      "output_metrics": {
+        "M4D": 3.9883068695854456,
+        "accuracy": 95,
+        "speed": 39.883068695854455,
+        "quality": 5.259522046077679,
+        "composite_score": 46.71419691397738
+      },
+      "M4D_score": 3.9883068695854456,
+      "processing_time": 0.2507329633098023,
+      "notes": "cognitive task"
+    },
+    {
+      "trial_id": 18,
+      "timestamp": "2026-01-06T09:03:36.211878",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "task_type": "language",
+        "experience_level": 15.0,
+        "run": 0
+      },
+      "output_metrics": {
+        "M4D": 1.2267160189383792,
+        "accuracy": 30.66790047345948,
+        "speed": 12.267160189383793,
+        "quality": 1.2778881526540034,
+        "composite_score": 14.737649605165757
+      },
+      "M4D_score": 1.2267160189383792,
+      "processing_time": 0.8151845941209905,
+      "notes": "language task"
+    },
+    {
+      "trial_id": 19,
+      "timestamp": "2026-01-06T09:03:36.211911",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "task_type": "language",
+        "experience_level": 15.0,
+        "run": 1
+      },
+      "output_metrics": {
+        "M4D": 1.2267160189383792,
+        "accuracy": 30.66790047345948,
+        "speed": 12.267160189383793,
+        "quality": 1.2778881526540034,
+        "composite_score": 14.737649605165757
+      },
+      "M4D_score": 1.2267160189383792,
+      "processing_time": 0.8151845941209905,
+      "notes": "language task"
+    },
+    {
+      "trial_id": 20,
+      "timestamp": "2026-01-06T09:03:36.211942",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "task_type": "language",
+        "experience_level": 15.0,
+        "run": 2
+      },
+      "output_metrics": {
+        "M4D": 1.2267160189383792,
+        "accuracy": 30.66790047345948,
+        "speed": 12.267160189383793,
+        "quality": 1.2778881526540034,
+        "composite_score": 14.737649605165757
+      },
+      "M4D_score": 1.2267160189383792,
+      "processing_time": 0.8151845941209905,
+      "notes": "language task"
+    },
+    {
+      "trial_id": 21,
+      "timestamp": "2026-01-06T09:03:36.211973",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "language",
+        "experience_level": 15.0,
+        "run": 0
+      },
+      "output_metrics": {
+        "M4D": 2.7063671053143192,
+        "accuracy": 67.65917763285798,
+        "speed": 27.063671053143192,
+        "quality": 3.302661375289712,
+        "composite_score": 32.67517002043029
+      },
+      "M4D_score": 2.7063671053143192,
+      "processing_time": 0.3694990225222455,
+      "notes": "language task"
+    },
+    {
+      "trial_id": 22,
+      "timestamp": "2026-01-06T09:03:36.212003",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "language",
+        "experience_level": 15.0,
+        "run": 1
+      },
+      "output_metrics": {
+        "M4D": 2.7063671053143192,
+        "accuracy": 67.65917763285798,
+        "speed": 27.063671053143192,
+        "quality": 3.302661375289712,
+        "composite_score": 32.67517002043029
+      },
+      "M4D_score": 2.7063671053143192,
+      "processing_time": 0.3694990225222455,
+      "notes": "language task"
+    },
+    {
+      "trial_id": 23,
+      "timestamp": "2026-01-06T09:03:36.212033",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "language",
+        "experience_level": 15.0,
+        "run": 2
+      },
+      "output_metrics": {
+        "M4D": 2.7063671053143192,
+        "accuracy": 67.65917763285798,
+        "speed": 27.063671053143192,
+        "quality": 3.302661375289712,
+        "composite_score": 32.67517002043029
+      },
+      "M4D_score": 2.7063671053143192,
+      "processing_time": 0.3694990225222455,
+      "notes": "language task"
+    },
+    {
+      "trial_id": 24,
+      "timestamp": "2026-01-06T09:03:36.212063",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "language",
+        "experience_level": 15.0,
+        "run": 0
+      },
+      "output_metrics": {
+        "M4D": 3.617906433979691,
+        "accuracy": 90.44766084949228,
+        "speed": 36.17906433979691,
+        "quality": 4.678954232943036,
+        "composite_score": 43.768559807410746
+      },
+      "M4D_score": 3.617906433979691,
+      "processing_time": 0.2764029469109298,
+      "notes": "language task"
+    },
+    {
+      "trial_id": 25,
+      "timestamp": "2026-01-06T09:03:36.212094",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "language",
+        "experience_level": 15.0,
+        "run": 1
+      },
+      "output_metrics": {
+        "M4D": 3.617906433979691,
+        "accuracy": 90.44766084949228,
+        "speed": 36.17906433979691,
+        "quality": 4.678954232943036,
+        "composite_score": 43.768559807410746
+      },
+      "M4D_score": 3.617906433979691,
+      "processing_time": 0.2764029469109298,
+      "notes": "language task"
+    },
+    {
+      "trial_id": 26,
+      "timestamp": "2026-01-06T09:03:36.212124",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "language",
+        "experience_level": 15.0,
+        "run": 2
+      },
+      "output_metrics": {
+        "M4D": 3.617906433979691,
+        "accuracy": 90.44766084949228,
+        "speed": 36.17906433979691,
+        "quality": 4.678954232943036,
+        "composite_score": 43.768559807410746
+      },
+      "M4D_score": 3.617906433979691,
+      "processing_time": 0.2764029469109298,
+      "notes": "language task"
+    },
+    {
+      "trial_id": 27,
+      "timestamp": "2026-01-06T09:03:36.212157",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "task_type": "emotional",
+        "experience_level": 15.0,
+        "run": 0
+      },
+      "output_metrics": {
+        "M4D": 1.1490260970634432,
+        "accuracy": 28.72565242658608,
+        "speed": 11.49026097063443,
+        "quality": 1.1813970203453934,
+        "composite_score": 13.799103472521969
+      },
+      "M4D_score": 1.1490260970634432,
+      "processing_time": 0.8703022521034919,
+      "notes": "emotional task"
+    },
+    {
+      "trial_id": 28,
+      "timestamp": "2026-01-06T09:03:36.212188",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "task_type": "emotional",
+        "experience_level": 15.0,
+        "run": 1
+      },
+      "output_metrics": {
+        "M4D": 1.1490260970634432,
+        "accuracy": 28.72565242658608,
+        "speed": 11.49026097063443,
+        "quality": 1.1813970203453934,
+        "composite_score": 13.799103472521969
+      },
+      "M4D_score": 1.1490260970634432,
+      "processing_time": 0.8703022521034919,
+      "notes": "emotional task"
+    },
+    {
+      "trial_id": 29,
+      "timestamp": "2026-01-06T09:03:36.212218",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "task_type": "emotional",
+        "experience_level": 15.0,
+        "run": 2
+      },
+      "output_metrics": {
+        "M4D": 1.1490260970634432,
+        "accuracy": 28.72565242658608,
+        "speed": 11.49026097063443,
+        "quality": 1.1813970203453934,
+        "composite_score": 13.799103472521969
+      },
+      "M4D_score": 1.1490260970634432,
+      "processing_time": 0.8703022521034919,
+      "notes": "emotional task"
+    },
+    {
+      "trial_id": 30,
+      "timestamp": "2026-01-06T09:03:36.212248",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "emotional",
+        "experience_level": 15.0,
+        "run": 0
+      },
+      "output_metrics": {
+        "M4D": 2.571166462051445,
+        "accuracy": 64.27916155128612,
+        "speed": 25.711664620514448,
+        "quality": 3.105676626136635,
+        "composite_score": 31.0321675993124
+      },
+      "M4D_score": 2.571166462051445,
+      "processing_time": 0.38892853292825486,
+      "notes": "emotional task"
+    },
+    {
+      "trial_id": 31,
+      "timestamp": "2026-01-06T09:03:36.212279",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "emotional",
+        "experience_level": 15.0,
+        "run": 1
+      },
+      "output_metrics": {
+        "M4D": 2.571166462051445,
+        "accuracy": 64.27916155128612,
+        "speed": 25.711664620514448,
+        "quality": 3.105676626136635,
+        "composite_score": 31.0321675993124
+      },
+      "M4D_score": 2.571166462051445,
+      "processing_time": 0.38892853292825486,
+      "notes": "emotional task"
+    },
+    {
+      "trial_id": 32,
+      "timestamp": "2026-01-06T09:03:36.212309",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "emotional",
+        "experience_level": 15.0,
+        "run": 2
+      },
+      "output_metrics": {
+        "M4D": 2.571166462051445,
+        "accuracy": 64.27916155128612,
+        "speed": 25.711664620514448,
+        "quality": 3.105676626136635,
+        "composite_score": 31.0321675993124
+      },
+      "M4D_score": 2.571166462051445,
+      "processing_time": 0.38892853292825486,
+      "notes": "emotional task"
+    },
+    {
+      "trial_id": 33,
+      "timestamp": "2026-01-06T09:03:36.212339",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "emotional",
+        "experience_level": 15.0,
+        "run": 0
+      },
+      "output_metrics": {
+        "M4D": 3.4726161904733175,
+        "accuracy": 86.81540476183294,
+        "speed": 34.726161904733175,
+        "quality": 4.454389018141975,
+        "composite_score": 41.9986518949027
+      },
+      "M4D_score": 3.4726161904733175,
+      "processing_time": 0.28796732640462064,
+      "notes": "emotional task"
+    },
+    {
+      "trial_id": 34,
+      "timestamp": "2026-01-06T09:03:36.212369",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "emotional",
+        "experience_level": 15.0,
+        "run": 1
+      },
+      "output_metrics": {
+        "M4D": 3.4726161904733175,
+        "accuracy": 86.81540476183294,
+        "speed": 34.726161904733175,
+        "quality": 4.454389018141975,
+        "composite_score": 41.9986518949027
+      },
+      "M4D_score": 3.4726161904733175,
+      "processing_time": 0.28796732640462064,
+      "notes": "emotional task"
+    },
+    {
+      "trial_id": 35,
+      "timestamp": "2026-01-06T09:03:36.212399",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "emotional",
+        "experience_level": 15.0,
+        "run": 2
+      },
+      "output_metrics": {
+        "M4D": 3.4726161904733175,
+        "accuracy": 86.81540476183294,
+        "speed": 34.726161904733175,
+        "quality": 4.454389018141975,
+        "composite_score": 41.9986518949027
+      },
+      "M4D_score": 3.4726161904733175,
+      "processing_time": 0.28796732640462064,
+      "notes": "emotional task"
+    },
+    {
+      "trial_id": 36,
+      "timestamp": "2026-01-06T09:03:36.212432",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "task_type": "manifestation",
+        "experience_level": 15.0,
+        "run": 0
+      },
+      "output_metrics": {
+        "M4D": 1.8177872225363751,
+        "accuracy": 45.44468056340938,
+        "speed": 18.17787222536375,
+        "quality": 2.0485739962522875,
+        "composite_score": 21.890375595008475
+      },
+      "M4D_score": 1.8177872225363751,
+      "processing_time": 0.5501193910939097,
+      "notes": "manifestation task"
+    },
+    {
+      "trial_id": 37,
+      "timestamp": "2026-01-06T09:03:36.212463",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "task_type": "manifestation",
+        "experience_level": 15.0,
+        "run": 1
+      },
+      "output_metrics": {
+        "M4D": 1.8177872225363751,
+        "accuracy": 45.44468056340938,
+        "speed": 18.17787222536375,
+        "quality": 2.0485739962522875,
+        "composite_score": 21.890375595008475
+      },
+      "M4D_score": 1.8177872225363751,
+      "processing_time": 0.5501193910939097,
+      "notes": "manifestation task"
+    },
+    {
+      "trial_id": 38,
+      "timestamp": "2026-01-06T09:03:36.212493",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "task_type": "manifestation",
+        "experience_level": 15.0,
+        "run": 2
+      },
+      "output_metrics": {
+        "M4D": 1.8177872225363751,
+        "accuracy": 45.44468056340938,
+        "speed": 18.17787222536375,
+        "quality": 2.0485739962522875,
+        "composite_score": 21.890375595008475
+      },
+      "M4D_score": 1.8177872225363751,
+      "processing_time": 0.5501193910939097,
+      "notes": "manifestation task"
+    },
+    {
+      "trial_id": 39,
+      "timestamp": "2026-01-06T09:03:36.212525",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "manifestation",
+        "experience_level": 15.0,
+        "run": 0
+      },
+      "output_metrics": {
+        "M4D": 3.959831775564907,
+        "accuracy": 95,
+        "speed": 39.59831775564907,
+        "quality": 5.2144929372575115,
+        "composite_score": 46.604270230968865
+      },
+      "M4D_score": 3.959831775564907,
+      "processing_time": 0.2525359804855197,
+      "notes": "manifestation task"
+    },
+    {
+      "trial_id": 40,
+      "timestamp": "2026-01-06T09:03:36.212557",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "manifestation",
+        "experience_level": 15.0,
+        "run": 1
+      },
+      "output_metrics": {
+        "M4D": 3.959831775564907,
+        "accuracy": 95,
+        "speed": 39.59831775564907,
+        "quality": 5.2144929372575115,
+        "composite_score": 46.604270230968865
+      },
+      "M4D_score": 3.959831775564907,
+      "processing_time": 0.2525359804855197,
+      "notes": "manifestation task"
+    },
+    {
+      "trial_id": 41,
+      "timestamp": "2026-01-06T09:03:36.212589",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "manifestation",
+        "experience_level": 15.0,
+        "run": 2
+      },
+      "output_metrics": {
+        "M4D": 3.959831775564907,
+        "accuracy": 95,
+        "speed": 39.59831775564907,
+        "quality": 5.2144929372575115,
+        "composite_score": 46.604270230968865
+      },
+      "M4D_score": 3.959831775564907,
+      "processing_time": 0.2525359804855197,
+      "notes": "manifestation task"
+    },
+    {
+      "trial_id": 42,
+      "timestamp": "2026-01-06T09:03:36.212619",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "manifestation",
+        "experience_level": 15.0,
+        "run": 0
+      },
+      "output_metrics": {
+        "M4D": 5.277085140688277,
+        "accuracy": 95,
+        "speed": 52.77085140688277,
+        "quality": 7.359917079530153,
+        "composite_score": 51.71025616213765
+      },
+      "M4D_score": 5.277085140688277,
+      "processing_time": 0.18949855333764287,
+      "notes": "manifestation task"
+    },
+    {
+      "trial_id": 43,
+      "timestamp": "2026-01-06T09:03:36.212650",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "manifestation",
+        "experience_level": 15.0,
+        "run": 1
+      },
+      "output_metrics": {
+        "M4D": 5.277085140688277,
+        "accuracy": 95,
+        "speed": 52.77085140688277,
+        "quality": 7.359917079530153,
+        "composite_score": 51.71025616213765
+      },
+      "M4D_score": 5.277085140688277,
+      "processing_time": 0.18949855333764287,
+      "notes": "manifestation task"
+    },
+    {
+      "trial_id": 44,
+      "timestamp": "2026-01-06T09:03:36.212681",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "task_type": "manifestation",
+        "experience_level": 15.0,
+        "run": 2
+      },
+      "output_metrics": {
+        "M4D": 5.277085140688277,
+        "accuracy": 95,
+        "speed": 52.77085140688277,
+        "quality": 7.359917079530153,
+        "composite_score": 51.71025616213765
+      },
+      "M4D_score": 5.277085140688277,
+      "processing_time": 0.18949855333764287,
+      "notes": "manifestation task"
+    }
+  ],
+  "summary_statistics": {
+    "motor": {
+      "standard": {
+        "mean_M4D": 1.2455499393929088,
+        "mean_accuracy": 31.138748484822724,
+        "mean_composite": 14.96523850599307
+      },
+      "deep_understanding": {
+        "mean_M4D": 2.5287901410287525,
+        "mean_accuracy": 63.21975352571881,
+        "mean_composite": 30.51733677098504
+      },
+      "emotional_learning": {
+        "mean_M4D": 3.3448145873890085,
+        "mean_accuracy": 83.62036468472522,
+        "mean_composite": 40.4423035363469
+      }
+    },
+    "cognitive": {
+      "standard": {
+        "mean_M4D": 1.3770734839003762,
+        "mean_accuracy": 34.426837097509406,
+        "mean_composite": 16.55521597897238
+      },
+      "deep_understanding": {
+        "mean_M4D": 3.003337672481282,
+        "mean_accuracy": 75.08344181203206,
+        "mean_composite": 36.286333773626296
+      },
+      "emotional_learning": {
+        "mean_M4D": 3.9883068695854456,
+        "mean_accuracy": 95.0,
+        "mean_composite": 46.71419691397738
+      }
+    },
+    "language": {
+      "standard": {
+        "mean_M4D": 1.2267160189383792,
+        "mean_accuracy": 30.66790047345948,
+        "mean_composite": 14.737649605165757
+      },
+      "deep_understanding": {
+        "mean_M4D": 2.7063671053143192,
+        "mean_accuracy": 67.65917763285798,
+        "mean_composite": 32.67517002043029
+      },
+      "emotional_learning": {
+        "mean_M4D": 3.617906433979691,
+        "mean_accuracy": 90.44766084949227,
+        "mean_composite": 43.768559807410746
+      }
+    },
+    "emotional": {
+      "standard": {
+        "mean_M4D": 1.1490260970634432,
+        "mean_accuracy": 28.72565242658608,
+        "mean_composite": 13.799103472521969
+      },
+      "deep_understanding": {
+        "mean_M4D": 2.571166462051445,
+        "mean_accuracy": 64.27916155128612,
+        "mean_composite": 31.0321675993124
+      },
+      "emotional_learning": {
+        "mean_M4D": 3.4726161904733175,
+        "mean_accuracy": 86.81540476183294,
+        "mean_composite": 41.9986518949027
+      }
+    },
+    "manifestation": {
+      "standard": {
+        "mean_M4D": 1.8177872225363751,
+        "mean_accuracy": 45.44468056340938,
+        "mean_composite": 21.890375595008475
+      },
+      "deep_understanding": {
+        "mean_M4D": 3.9598317755649064,
+        "mean_accuracy": 95.0,
+        "mean_composite": 46.604270230968865
+      },
+      "emotional_learning": {
+        "mean_M4D": 5.277085140688277,
+        "mean_accuracy": 95.0,
+        "mean_composite": 51.71025616213765
+      }
+    }
+  },
+  "conclusion": "\nCONCLUSION:\nTask-Sequence Optimal Pairings:\n  - motor: Emotional Learning Sequence\n  - cognitive: Emotional Learning Sequence\n  - language: Emotional Learning Sequence\n  - emotional: Emotional Learning Sequence\n  - manifestation: Emotional Learning Sequence\n\n- Different tasks benefit from different sequences\n- No single sequence optimal for all tasks\n- HYPOTHESIS SUPPORTED: Task-sequence matching affects performance\n"
+}

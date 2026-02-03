@@ -1,0 +1,159 @@
+{
+  "vertices": [
+    {
+      "id": 0,
+      "connected": false,
+      "connection_id": null,
+      "connection_timestamp": null
+    },
+    {
+      "id": 1,
+      "connected": false,
+      "connection_id": null,
+      "connection_timestamp": null
+    },
+    {
+      "id": 2,
+      "connected": false,
+      "connection_id": null,
+      "connection_timestamp": null
+    },
+    {
+      "id": 3,
+      "connected": false,
+      "connection_id": null,
+      "connection_timestamp": null
+    },
+    {
+      "id": 4,
+      "connected": false,
+      "connection_id": null,
+      "connection_timestamp": null
+    },
+    {
+      "id": 5,
+      "connected": false,
+      "connection_id": null,
+      "connection_timestamp": null
+    },
+    {
+      "id": 6,
+      "connected": false,
+      "connection_id": null,
+      "connection_timestamp": null
+    },
+    {
+      "id": 7,
+      "connected": false,
+      "connection_id": null,
+      "connection_timestamp": null
+    }
+  ],
+  "nodes": {
+    "1": {
+      "id": 1,
+      "name": "Reactive",
+      "development": 0.44000000000000006,
+      "activation_count": 100,
+      "pattern_weights": {
+        "txt_hel_5_llo": 0.3452271214393102,
+        "txt_wor_5_rld": 0.2143588810000001,
+        "txt_dog_3_dog": 0.25937424601000014,
+        "txt_yes_3_yes": 0.3138428376721002,
+        "txt_no_2_no": 0.3138428376721002,
+        "txt_cat_3_cat": 0.1948717100000001,
+        "num_1_pos": 0.25937424601000014,
+        "num_0_pos": 0.28531167061100016,
+        "txt_dow_4_own": 0.13310000000000002,
+        "txt_up_2_up": 0.14641000000000004
+      },
+      "connection_strengths": {},
+      "compressed_patterns": []
+    },
+    "3": {
+      "id": 3,
+      "name": "Executive",
+      "development": 0.44000000000000006,
+      "activation_count": 100,
+      "pattern_weights": {
+        "txt_hel_5_llo": 0.3452271214393102,
+        "txt_wor_5_rld": 0.2143588810000001,
+        "txt_dog_3_dog": 0.25937424601000014,
+        "txt_yes_3_yes": 0.3138428376721002,
+        "txt_no_2_no": 0.3138428376721002,
+        "txt_cat_3_cat": 0.1948717100000001,
+        "num_1_pos": 0.25937424601000014,
+        "num_0_pos": 0.28531167061100016,
+        "txt_dow_4_own": 0.13310000000000002,
+        "txt_up_2_up": 0.14641000000000004
+      },
+      "connection_strengths": {},
+      "compressed_patterns": []
+    },
+    "6": {
+      "id": 6,
+      "name": "Emotional",
+      "development": 0.0,
+      "activation_count": 0,
+      "pattern_weights": {},
+      "connection_strengths": {},
+      "compressed_patterns": []
+    },
+    "7": {
+      "id": 7,
+      "name": "Pattern",
+      "development": 0.0,
+      "activation_count": 0,
+      "pattern_weights": {},
+      "connection_strengths": {},
+      "compressed_patterns": []
+    },
+    "9": {
+      "id": 9,
+      "name": "Perception",
+      "development": 0.44000000000000006,
+      "activation_count": 100,
+      "pattern_weights": {
+        "txt_hel_5_llo": 0.3452271214393102,
+        "txt_wor_5_rld": 0.2143588810000001,
+        "txt_dog_3_dog": 0.25937424601000014,
+        "txt_yes_3_yes": 0.3138428376721002,
+        "txt_no_2_no": 0.3138428376721002,
+        "txt_cat_3_cat": 0.1948717100000001,
+        "num_1_pos": 0.25937424601000014,
+        "num_0_pos": 0.28531167061100016,
+        "txt_dow_4_own": 0.13310000000000002,
+        "txt_up_2_up": 0.14641000000000004
+      },
+      "connection_strengths": {},
+      "compressed_patterns": []
+    },
+    "10": {
+      "id": 10,
+      "name": "Integration",
+      "development": 0.44000000000000006,
+      "activation_count": 100,
+      "pattern_weights": {
+        "txt_hel_5_llo": 0.3452271214393102,
+        "txt_wor_5_rld": 0.2143588810000001,
+        "txt_dog_3_dog": 0.25937424601000014,
+        "txt_yes_3_yes": 0.3138428376721002,
+        "txt_no_2_no": 0.3138428376721002,
+        "txt_cat_3_cat": 0.1948717100000001,
+        "num_1_pos": 0.25937424601000014,
+        "num_0_pos": 0.28531167061100016,
+        "txt_dow_4_own": 0.13310000000000002,
+        "txt_up_2_up": 0.14641000000000004
+      },
+      "connection_strengths": {},
+      "compressed_patterns": []
+    }
+  },
+  "pathway_strengths": {
+    "standard": 13.150125784630404,
+    "deep": 0.1,
+    "emotional": 0.1
+  },
+  "total_experiences": 100,
+  "timestamp": "2026-01-06T16:48:22.790838"
+}

@@ -1,0 +1,2731 @@
+{
+  "experiment_name": "Retention Decay Analysis",
+  "experiment_type": "retention_over_time",
+  "hypothesis": "Different sequences show different retention patterns",
+  "start_time": "2026-01-06T09:03:36.210885",
+  "end_time": "2026-01-06T09:03:36.211207",
+  "total_trials": 90,
+  "trials": [
+    {
+      "trial_id": 0,
+      "timestamp": "2026-01-06T09:03:36.210885",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 0.0
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 1.758190763830964,
+        "retention_percentage": 100.0,
+        "decay_rate": 0
+      },
+      "M4D_score": 1.758190763830964,
+      "processing_time": 0.0,
+      "notes": ""
+    },
+    {
+      "trial_id": 1,
+      "timestamp": "2026-01-06T09:03:36.210889",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 1.7241379310344827
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 1.6736790402923172,
+        "retention_percentage": 95.19325631341037,
+        "decay_rate": 0.049016799652415136
+      },
+      "M4D_score": 1.6736790402923172,
+      "processing_time": 1.7241379310344827,
+      "notes": ""
+    },
+    {
+      "trial_id": 2,
+      "timestamp": "2026-01-06T09:03:36.210892",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 3.4482758620689653
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 1.5932295786892923,
+        "retention_percentage": 90.61756047550644,
+        "decay_rate": 0.04783874369108479
+      },
+      "M4D_score": 1.5932295786892923,
+      "processing_time": 3.4482758620689653,
+      "notes": ""
+    },
+    {
+      "trial_id": 3,
+      "timestamp": "2026-01-06T09:03:36.210894",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 5.172413793103448
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 1.5166471165027662,
+        "retention_percentage": 86.26180660840849,
+        "decay_rate": 0.046698438483451565
+      },
+      "M4D_score": 1.5166471165027662,
+      "processing_time": 5.172413793103448,
+      "notes": ""
+    },
+    {
+      "trial_id": 4,
+      "timestamp": "2026-01-06T09:03:36.210897",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 6.896551724137931
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 1.4437457769824256,
+        "retention_percentage": 82.11542266532065,
+        "decay_rate": 0.04559452309303807
+      },
+      "M4D_score": 1.4437457769824256,
+      "processing_time": 6.896551724137931,
+      "notes": ""
+    },
+    {
+      "trial_id": 5,
+      "timestamp": "2026-01-06T09:03:36.210899",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 8.620689655172413
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 1.3743486179969187,
+        "retention_percentage": 78.16834477063897,
+        "decay_rate": 0.04452568891674926
+      },
+      "M4D_score": 1.3743486179969187,
+      "processing_time": 8.620689655172413,
+      "notes": ""
+    },
+    {
+      "trial_id": 6,
+      "timestamp": "2026-01-06T09:03:36.210901",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 10.344827586206897
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 1.3082872025696197,
+        "retention_percentage": 74.41099279346464,
+        "decay_rate": 0.04349067758859661
+      },
+      "M4D_score": 1.3082872025696197,
+      "processing_time": 10.344827586206897,
+      "notes": ""
+    },
+    {
+      "trial_id": 7,
+      "timestamp": "2026-01-06T09:03:36.210903",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 12.068965517241379
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 1.2454011900576445,
+        "retention_percentage": 70.83424709523612,
+        "decay_rate": 0.04248827896978933
+      },
+      "M4D_score": 1.2454011900576445,
+      "processing_time": 12.068965517241379,
+      "notes": ""
+    },
+    {
+      "trial_id": 8,
+      "timestamp": "2026-01-06T09:03:36.210905",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 13.793103448275861
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 1.1855379469818366,
+        "retention_percentage": 67.42942639504257,
+        "decay_rate": 0.04151732922156174
+      },
+      "M4D_score": 1.1855379469818366,
+      "processing_time": 13.793103448275861,
+      "notes": ""
+    },
+    {
+      "trial_id": 9,
+      "timestamp": "2026-01-06T09:03:36.210908",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 15.517241379310343
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 1.1285521765631628,
+        "retention_percentage": 64.18826669889526,
+        "decay_rate": 0.0405767089572583
+      },
+      "M4D_score": 1.1285521765631628,
+      "processing_time": 15.517241379310343,
+      "notes": ""
+    },
+    {
+      "trial_id": 10,
+      "timestamp": "2026-01-06T09:03:36.210910",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 17.241379310344826
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 1.074305566066343,
+        "retention_percentage": 61.10290124181479,
+        "decay_rate": 0.039665341470348024
+      },
+      "M4D_score": 1.074305566066343,
+      "processing_time": 17.241379310344826,
+      "notes": ""
+    },
+    {
+      "trial_id": 11,
+      "timestamp": "2026-01-06T09:03:36.210912",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 18.96551724137931
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 1.022666451094768,
+        "retention_percentage": 58.16584139405075,
+        "decay_rate": 0.03878219103518124
+      },
+      "M4D_score": 1.022666451094768,
+      "processing_time": 18.96551724137931,
+      "notes": ""
+    },
+    {
+      "trial_id": 12,
+      "timestamp": "2026-01-06T09:03:36.210914",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 20.689655172413794
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 0.9735094960219001,
+        "retention_percentage": 55.369958485090486,
+        "decay_rate": 0.03792626127743809
+      },
+      "M4D_score": 0.9735094960219001,
+      "processing_time": 20.689655172413794,
+      "notes": ""
+    },
+    {
+      "trial_id": 13,
+      "timestamp": "2026-01-06T09:03:36.210916",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 22.413793103448274
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 0.9267153897835169,
+        "retention_percentage": 52.7084665013411,
+        "decay_rate": 0.03709659361134764
+      },
+      "M4D_score": 0.9267153897835169,
+      "processing_time": 22.413793103448274,
+      "notes": ""
+    },
+    {
+      "trial_id": 14,
+      "timestamp": "2026-01-06T09:03:36.210918",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 24.137931034482758
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 0.8821705562924431,
+        "retention_percentage": 50.17490561548967,
+        "decay_rate": 0.036292265740881575
+      },
+      "M4D_score": 0.8821705562924431,
+      "processing_time": 24.137931034482758,
+      "notes": ""
+    },
+    {
+      "trial_id": 15,
+      "timestamp": "2026-01-06T09:03:36.210920",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 25.86206896551724
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 0.8397668787729037,
+        "retention_percentage": 47.76312650756483,
+        "decay_rate": 0.035512390222245
+      },
+      "M4D_score": 0.8397668787729037,
+      "processing_time": 25.86206896551724,
+      "notes": ""
+    },
+    {
+      "trial_id": 16,
+      "timestamp": "2026-01-06T09:03:36.210922",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 27.586206896551722
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 0.7994014373454161,
+        "retention_percentage": 45.46727543964463,
+        "decay_rate": 0.03475611308510111
+      },
+      "M4D_score": 0.7994014373454161,
+      "processing_time": 27.586206896551722,
+      "notes": ""
+    },
+    {
+      "trial_id": 17,
+      "timestamp": "2026-01-06T09:03:36.210924",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 29.310344827586206
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 0.7609762592253086,
+        "retention_percentage": 43.281780047985194,
+        "decay_rate": 0.0340226125100753
+      },
+      "M4D_score": 0.7609762592253086,
+      "processing_time": 29.310344827586206,
+      "notes": ""
+    },
+    {
+      "trial_id": 18,
+      "timestamp": "2026-01-06T09:03:36.210926",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 31.034482758620687
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 0.7243980809285503,
+        "retention_percentage": 41.20133581808506,
+        "decay_rate": 0.03331109756018889
+      },
+      "M4D_score": 0.7243980809285503,
+      "processing_time": 31.034482758620687,
+      "notes": ""
+    },
+    {
+      "trial_id": 19,
+      "timestamp": "2026-01-06T09:03:36.210929",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 32.75862068965517
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 0.6895781219077408,
+        "retention_percentage": 39.22089320985867,
+        "decay_rate": 0.03262080696397208
+      },
+      "M4D_score": 0.6895781219077408,
+      "processing_time": 32.75862068965517,
+      "notes": ""
+    },
+    {
+      "trial_id": 20,
+      "timestamp": "2026-01-06T09:03:36.210931",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 34.48275862068965
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 0.656431869068837,
+        "retention_percentage": 37.33564540166972,
+        "decay_rate": 0.031951007948101684
+      },
+      "M4D_score": 0.656431869068837,
+      "processing_time": 34.48275862068965,
+      "notes": ""
+    },
+    {
+      "trial_id": 21,
+      "timestamp": "2026-01-06T09:03:36.210933",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 36.206896551724135
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 0.6248788716456083,
+        "retention_percentage": 35.54101662347746,
+        "decay_rate": 0.031300995117500306
+      },
+      "M4D_score": 0.6248788716456083,
+      "processing_time": 36.206896551724135,
+      "notes": ""
+    },
+    {
+      "trial_id": 22,
+      "timestamp": "2026-01-06T09:03:36.210982",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 37.93103448275862
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 0.5948425459339505,
+        "retention_percentage": 33.832651050778686,
+        "decay_rate": 0.030670089380921264
+      },
+      "M4D_score": 0.5948425459339505,
+      "processing_time": 37.93103448275862,
+      "notes": ""
+    },
+    {
+      "trial_id": 23,
+      "timestamp": "2026-01-06T09:03:36.210984",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 39.6551724137931
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 0.5662499894121212,
+        "retention_percentage": 32.20640223238948,
+        "decay_rate": 0.030057636920127334
+      },
+      "M4D_score": 0.5662499894121212,
+      "processing_time": 39.6551724137931,
+      "notes": ""
+    },
+    {
+      "trial_id": 24,
+      "timestamp": "2026-01-06T09:03:36.210986",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 41.37931034482759
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 0.5390318037957398,
+        "retention_percentage": 30.658323026406446,
+        "decay_rate": 0.02946300820085125
+      },
+      "M4D_score": 0.5390318037957398,
+      "processing_time": 41.37931034482759,
+      "notes": ""
+    },
+    {
+      "trial_id": 25,
+      "timestamp": "2026-01-06T09:03:36.210988",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 43.103448275862064
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 0.5131219265980779,
+        "retention_percentage": 29.184656019920403,
+        "decay_rate": 0.02888559702380296
+      },
+      "M4D_score": 0.5131219265980779,
+      "processing_time": 43.103448275862064,
+      "notes": ""
+    },
+    {
+      "trial_id": 26,
+      "timestamp": "2026-01-06T09:03:36.210994",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 44.82758620689655
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 0.4884574707868177,
+        "retention_percentage": 27.781824409229976,
+        "decay_rate": 0.028324819614061726
+      },
+      "M4D_score": 0.4884574707868177,
+      "processing_time": 44.82758620689655,
+      "notes": ""
+    },
+    {
+      "trial_id": 27,
+      "timestamp": "2026-01-06T09:03:36.210996",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 46.55172413793103
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 0.4649785721480969,
+        "retention_percentage": 26.446423318419892,
+        "decay_rate": 0.027780113747261588
+      },
+      "M4D_score": 0.4649785721480969,
+      "processing_time": 46.55172413793103,
+      "notes": ""
+    },
+    {
+      "trial_id": 28,
+      "timestamp": "2026-01-06T09:03:36.210998",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 48.275862068965516
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 0.44262824398737355,
+        "retention_percentage": 25.17521153523297,
+        "decay_rate": 0.0272509379110458
+      },
+      "M4D_score": 0.44262824398737355,
+      "processing_time": 48.275862068965516,
+      "notes": ""
+    },
+    {
+      "trial_id": 29,
+      "timestamp": "2026-01-06T09:03:36.211000",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 50.0
+      },
+      "output_metrics": {
+        "peak_M4D": 1.758190763830964,
+        "current_M4D": 0.42135223881444794,
+        "retention_percentage": 23.965103644177578,
+        "decay_rate": 0.02673677050033032
+      },
+      "M4D_score": 0.42135223881444794,
+      "processing_time": 50.0,
+      "notes": ""
+    },
+    {
+      "trial_id": 30,
+      "timestamp": "2026-01-06T09:03:36.211037",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 0.0
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 3.8345379663153745,
+        "retention_percentage": 100.0,
+        "decay_rate": 0
+      },
+      "M4D_score": 3.8345379663153745,
+      "processing_time": 0.0,
+      "notes": ""
+    },
+    {
+      "trial_id": 31,
+      "timestamp": "2026-01-06T09:03:36.211039",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 1.7241379310344827
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 3.747393170321462,
+        "retention_percentage": 97.72737167399465,
+        "decay_rate": 0.05054398167646922
+      },
+      "M4D_score": 3.747393170321462,
+      "processing_time": 1.7241379310344827,
+      "notes": ""
+    },
+    {
+      "trial_id": 32,
+      "timestamp": "2026-01-06T09:03:36.211041",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 3.4482758620689653
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 3.662228851645947,
+        "retention_percentage": 95.50639174307094,
+        "decay_rate": 0.04996964325413399
+      },
+      "M4D_score": 3.662228851645947,
+      "processing_time": 3.4482758620689653,
+      "notes": ""
+    },
+    {
+      "trial_id": 33,
+      "timestamp": "2026-01-06T09:03:36.211044",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 5.172413793103448
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 3.579000001400301,
+        "retention_percentage": 93.33588643117227,
+        "decay_rate": 0.04940400655024755
+      },
+      "M4D_score": 3.579000001400301,
+      "processing_time": 5.172413793103448,
+      "notes": ""
+    },
+    {
+      "trial_id": 34,
+      "timestamp": "2026-01-06T09:03:36.211046",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 6.896551724137931
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 3.4976626335807457,
+        "retention_percentage": 91.21470863780927,
+        "decay_rate": 0.04884692324652117
+      },
+      "M4D_score": 3.4976626335807457,
+      "processing_time": 6.896551724137931,
+      "notes": ""
+    },
+    {
+      "trial_id": 35,
+      "timestamp": "2026-01-06T09:03:36.211048",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 8.620689655172413
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 3.4181737618218855,
+        "retention_percentage": 89.14173733182318,
+        "decay_rate": 0.048298247721244726
+      },
+      "M4D_score": 3.4181737618218855,
+      "processing_time": 8.620689655172413,
+      "notes": ""
+    },
+    {
+      "trial_id": 36,
+      "timestamp": "2026-01-06T09:03:36.211050",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 10.344827586206897
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 3.340491376678639,
+        "retention_percentage": 87.11587695892689,
+        "decay_rate": 0.047757836998217756
+      },
+      "M4D_score": 3.340491376678639,
+      "processing_time": 10.344827586206897,
+      "notes": ""
+    },
+    {
+      "trial_id": 37,
+      "timestamp": "2026-01-06T09:03:36.211052",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 12.068965517241379
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 3.2645744234244742,
+        "retention_percentage": 85.13605686271035,
+        "decay_rate": 0.04722555069667459
+      },
+      "M4D_score": 3.2645744234244742,
+      "processing_time": 12.068965517241379,
+      "notes": ""
+    },
+    {
+      "trial_id": 38,
+      "timestamp": "2026-01-06T09:03:36.211054",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 13.793103448275861
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 3.1903827803542044,
+        "retention_percentage": 83.20123071880438,
+        "decay_rate": 0.04670125098218483
+      },
+      "M4D_score": 3.1903827803542044,
+      "processing_time": 13.793103448275861,
+      "notes": ""
+    },
+    {
+      "trial_id": 39,
+      "timestamp": "2026-01-06T09:03:36.211056",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 15.517241379310343
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 3.117877237579878,
+        "retention_percentage": 81.31037598190377,
+        "decay_rate": 0.046184802518509774
+      },
+      "M4D_score": 3.117877237579878,
+      "processing_time": 15.517241379310343,
+      "notes": ""
+    },
+    {
+      "trial_id": 40,
+      "timestamp": "2026-01-06T09:03:36.211058",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 17.241379310344826
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 3.0470194763085643,
+        "retention_percentage": 79.46249334535757,
+        "decay_rate": 0.045676072420394995
+      },
+      "M4D_score": 3.0470194763085643,
+      "processing_time": 17.241379310344826,
+      "notes": ""
+    },
+    {
+      "trial_id": 41,
+      "timestamp": "2026-01-06T09:03:36.211060",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 18.96551724137931
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 2.9777720485910764,
+        "retention_percentage": 77.65660621304087,
+        "decay_rate": 0.04517493020728117
+      },
+      "M4D_score": 2.9777720485910764,
+      "processing_time": 18.96551724137931,
+      "notes": ""
+    },
+    {
+      "trial_id": 42,
+      "timestamp": "2026-01-06T09:03:36.211062",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 20.689655172413794
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 2.910098357530926,
+        "retention_percentage": 75.89176018322888,
+        "decay_rate": 0.044681247757915016
+      },
+      "M4D_score": 2.910098357530926,
+      "processing_time": 20.689655172413794,
+      "notes": ""
+    },
+    {
+      "trial_id": 43,
+      "timestamp": "2026-01-06T09:03:36.211064",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 22.413793103448274
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 2.843962637943062,
+        "retention_percentage": 74.16702254420078,
+        "decay_rate": 0.04419489926584164
+      },
+      "M4D_score": 2.843962637943062,
+      "processing_time": 22.413793103448274,
+      "notes": ""
+    },
+    {
+      "trial_id": 44,
+      "timestamp": "2026-01-06T09:03:36.211065",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 24.137931034482758
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 2.7793299374521587,
+        "retention_percentage": 72.4814817813065,
+        "decay_rate": 0.043715761195761794
+      },
+      "M4D_score": 2.7793299374521587,
+      "processing_time": 24.137931034482758,
+      "notes": ""
+    },
+    {
+      "trial_id": 45,
+      "timestamp": "2026-01-06T09:03:36.211067",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 25.86206896551724
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 2.716166098020475,
+        "retention_percentage": 70.83424709523615,
+        "decay_rate": 0.043243712240736115
+      },
+      "M4D_score": 2.716166098020475,
+      "processing_time": 25.86206896551724,
+      "notes": ""
+    },
+    {
+      "trial_id": 46,
+      "timestamp": "2026-01-06T09:03:36.211069",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 27.586206896551722
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 2.6544377378955075,
+        "retention_percentage": 69.22444793123718,
+        "decay_rate": 0.04277863328022018
+      },
+      "M4D_score": 2.6544377378955075,
+      "processing_time": 27.586206896551722,
+      "notes": ""
+    },
+    {
+      "trial_id": 47,
+      "timestamp": "2026-01-06T09:03:36.211071",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 29.310344827586206
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 2.594112233967919,
+        "retention_percentage": 67.65123351903107,
+        "decay_rate": 0.042320407338913194
+      },
+      "M4D_score": 2.594112233967919,
+      "processing_time": 29.310344827586206,
+      "notes": ""
+    },
+    {
+      "trial_id": 48,
+      "timestamp": "2026-01-06T09:03:36.211073",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 31.034482758620687
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 2.535157704530394,
+        "retention_percentage": 66.11377242318555,
+        "decay_rate": 0.04186891954640493
+      },
+      "M4D_score": 2.535157704530394,
+      "processing_time": 31.034482758620687,
+      "notes": ""
+    },
+    {
+      "trial_id": 49,
+      "timestamp": "2026-01-06T09:03:36.211075",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 32.75862068965517
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 2.4775429924283294,
+        "retention_percentage": 64.61125210370552,
+        "decay_rate": 0.04142405709760454
+      },
+      "M4D_score": 2.4775429924283294,
+      "processing_time": 32.75862068965517,
+      "notes": ""
+    },
+    {
+      "trial_id": 50,
+      "timestamp": "2026-01-06T09:03:36.211077",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 34.48275862068965
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 2.4212376485934426,
+        "retention_percentage": 63.14287848660999,
+        "decay_rate": 0.04098570921393603
+      },
+      "M4D_score": 2.4212376485934426,
+      "processing_time": 34.48275862068965,
+      "notes": ""
+    },
+    {
+      "trial_id": 51,
+      "timestamp": "2026-01-06T09:03:36.211081",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 36.206896551724135
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 2.366211915951602,
+        "retention_percentage": 61.70787554426814,
+        "decay_rate": 0.040553767105285146
+      },
+      "M4D_score": 2.366211915951602,
+      "processing_time": 36.206896551724135,
+      "notes": ""
+    },
+    {
+      "trial_id": 52,
+      "timestamp": "2026-01-06T09:03:36.211083",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 37.93103448275862
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 2.312436713696372,
+        "retention_percentage": 60.30548488527299,
+        "decay_rate": 0.04012812393268279
+      },
+      "M4D_score": 2.312436713696372,
+      "processing_time": 37.93103448275862,
+      "notes": ""
+    },
+    {
+      "trial_id": 53,
+      "timestamp": "2026-01-06T09:03:36.211085",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 39.6551724137931
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 2.259883621919961,
+        "retention_percentage": 58.93496535363539,
+        "decay_rate": 0.039708674771710424
+      },
+      "M4D_score": 2.259883621919961,
+      "processing_time": 39.6551724137931,
+      "notes": ""
+    },
+    {
+      "trial_id": 54,
+      "timestamp": "2026-01-06T09:03:36.211087",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 41.37931034482759
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 2.2085248665934527,
+        "retention_percentage": 57.59559263708724,
+        "decay_rate": 0.03929531657661311
+      },
+      "M4D_score": 2.2085248665934527,
+      "processing_time": 41.37931034482759,
+      "notes": ""
+    },
+    {
+      "trial_id": 55,
+      "timestamp": "2026-01-06T09:03:36.211089",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 43.103448275862064
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 2.1583333048883784,
+        "retention_percentage": 56.286658884286155,
+        "decay_rate": 0.038887948145106314
+      },
+      "M4D_score": 2.1583333048883784,
+      "processing_time": 43.103448275862064,
+      "notes": ""
+    },
+    {
+      "trial_id": 56,
+      "timestamp": "2026-01-06T09:03:36.211091",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 44.82758620689655
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 2.1092824108318777,
+        "retention_percentage": 55.007472330719864,
+        "decay_rate": 0.03848647008386262
+      },
+      "M4D_score": 2.1092824108318777,
+      "processing_time": 44.82758620689655,
+      "notes": ""
+    },
+    {
+      "trial_id": 57,
+      "timestamp": "2026-01-06T09:03:36.211094",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 46.55172413793103
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 2.061346261287864,
+        "retention_percentage": 53.757356933112376,
+        "decay_rate": 0.038090784774665036
+      },
+      "M4D_score": 2.061346261287864,
+      "processing_time": 46.55172413793103,
+      "notes": ""
+    },
+    {
+      "trial_id": 58,
+      "timestamp": "2026-01-06T09:03:36.211096",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 48.275862068965516
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 2.0144995222567843,
+        "retention_percentage": 52.53565201213867,
+        "decay_rate": 0.037700796341213656
+      },
+      "M4D_score": 2.0144995222567843,
+      "processing_time": 48.275862068965516,
+      "notes": ""
+    },
+    {
+      "trial_id": 59,
+      "timestamp": "2026-01-06T09:03:36.211098",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 50.0
+      },
+      "output_metrics": {
+        "peak_M4D": 3.8345379663153745,
+        "current_M4D": 1.9687174354867338,
+        "retention_percentage": 51.3417119032592,
+        "decay_rate": 0.037316410616572815
+      },
+      "M4D_score": 1.9687174354867338,
+      "processing_time": 50.0,
+      "notes": ""
+    },
+    {
+      "trial_id": 60,
+      "timestamp": "2026-01-06T09:03:36.211133",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 0.0
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 5.092106110102118,
+        "retention_percentage": 100.0,
+        "decay_rate": 0
+      },
+      "M4D_score": 5.092106110102118,
+      "processing_time": 0.0,
+      "notes": ""
+    },
+    {
+      "trial_id": 61,
+      "timestamp": "2026-01-06T09:03:36.211135",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 1.7241379310344827
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 5.005063698994661,
+        "retention_percentage": 98.2906402728966,
+        "decay_rate": 0.05048459844232495
+      },
+      "M4D_score": 5.005063698994661,
+      "processing_time": 1.7241379310344827,
+      "notes": ""
+    },
+    {
+      "trial_id": 62,
+      "timestamp": "2026-01-06T09:03:36.211137",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 3.4482758620689653
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 4.919509155808175,
+        "retention_percentage": 96.61049965255964,
+        "decay_rate": 0.05005311674524346
+      },
+      "M4D_score": 4.919509155808175,
+      "processing_time": 3.4482758620689653,
+      "notes": ""
+    },
+    {
+      "trial_id": 63,
+      "timestamp": "2026-01-06T09:03:36.211139",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 5.172413793103448
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 4.835417047527626,
+        "retention_percentage": 94.95907867934542,
+        "decay_rate": 0.049626552097735116
+      },
+      "M4D_score": 4.835417047527626,
+      "processing_time": 5.172413793103448,
+      "notes": ""
+    },
+    {
+      "trial_id": 64,
+      "timestamp": "2026-01-06T09:03:36.211141",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 6.896551724137931
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 4.752762375879697,
+        "retention_percentage": 93.33588643117227,
+        "decay_rate": 0.049204841462251056
+      },
+      "M4D_score": 4.752762375879697,
+      "processing_time": 6.896551724137931,
+      "notes": ""
+    },
+    {
+      "trial_id": 65,
+      "timestamp": "2026-01-06T09:03:36.211143",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 8.620689655172413
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 4.671520569901487,
+        "retention_percentage": 91.74044037758286,
+        "decay_rate": 0.04878792266327319
+      },
+      "M4D_score": 4.671520569901487,
+      "processing_time": 8.620689655172413,
+      "notes": ""
+    },
+    {
+      "trial_id": 66,
+      "timestamp": "2026-01-06T09:03:36.211145",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 10.344827586206897
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 4.59166747863624,
+        "retention_percentage": 90.17226623630116,
+        "decay_rate": 0.04837573437503485
+      },
+      "M4D_score": 4.59166747863624,
+      "processing_time": 10.344827586206897,
+      "notes": ""
+    },
+    {
+      "trial_id": 67,
+      "timestamp": "2026-01-06T09:03:36.211147",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 12.068965517241379
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 4.513179363953928,
+        "retention_percentage": 88.63089783224137,
+        "decay_rate": 0.04796821610942142
+      },
+      "M4D_score": 4.513179363953928,
+      "processing_time": 12.068965517241379,
+      "notes": ""
+    },
+    {
+      "trial_id": 68,
+      "timestamp": "2026-01-06T09:03:36.211149",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 13.793103448275861
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 4.436032893494559,
+        "retention_percentage": 87.11587695892689,
+        "decay_rate": 0.04756530820404801
+      },
+      "M4D_score": 4.436032893494559,
+      "processing_time": 13.793103448275861,
+      "notes": ""
+    },
+    {
+      "trial_id": 69,
+      "timestamp": "2026-01-06T09:03:36.211151",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 15.517241379310343
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 4.360205133732104,
+        "retention_percentage": 85.62675324227806,
+        "decay_rate": 0.047166951810511996
+      },
+      "M4D_score": 4.360205133732104,
+      "processing_time": 15.517241379310343,
+      "notes": ""
+    },
+    {
+      "trial_id": 70,
+      "timestamp": "2026-01-06T09:03:36.211153",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 17.241379310344826
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 4.285673543156992,
+        "retention_percentage": 84.16308400672834,
+        "decay_rate": 0.04677308888281729
+      },
+      "M4D_score": 4.285673543156992,
+      "processing_time": 17.241379310344826,
+      "notes": ""
+    },
+    {
+      "trial_id": 71,
+      "timestamp": "2026-01-06T09:03:36.211155",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 18.96551724137931
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 4.212415965575142,
+        "retention_percentage": 82.72443414362914,
+        "decay_rate": 0.04638366216596784
+      },
+      "M4D_score": 4.212415965575142,
+      "processing_time": 18.96551724137931,
+      "notes": ""
+    },
+    {
+      "trial_id": 72,
+      "timestamp": "2026-01-06T09:03:36.211157",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 20.689655172413794
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 4.140410623521527,
+        "retention_percentage": 81.31037598190377,
+        "decay_rate": 0.04599861518472856
+      },
+      "M4D_score": 4.140410623521527,
+      "processing_time": 20.689655172413794,
+      "notes": ""
+    },
+    {
+      "trial_id": 73,
+      "timestamp": "2026-01-06T09:03:36.211159",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 22.413793103448274
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 4.069636111786339,
+        "retention_percentage": 79.92048916091275,
+        "decay_rate": 0.045617892232550125
+      },
+      "M4D_score": 4.069636111786339,
+      "processing_time": 22.413793103448274,
+      "notes": ""
+    },
+    {
+      "trial_id": 74,
+      "timestamp": "2026-01-06T09:03:36.211161",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 24.137931034482758
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 4.000071391051807,
+        "retention_percentage": 78.55436050549208,
+        "decay_rate": 0.045241438360655736
+      },
+      "M4D_score": 4.000071391051807,
+      "processing_time": 24.137931034482758,
+      "notes": ""
+    },
+    {
+      "trial_id": 75,
+      "timestamp": "2026-01-06T09:03:36.211163",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 25.86206896551724
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 3.9316957816377833,
+        "retention_percentage": 77.21158390312759,
+        "decay_rate": 0.04486919936728761
+      },
+      "M4D_score": 3.9316957816377833,
+      "processing_time": 25.86206896551724,
+      "notes": ""
+    },
+    {
+      "trial_id": 76,
+      "timestamp": "2026-01-06T09:03:36.211165",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 27.586206896551722
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 3.8644889573542445,
+        "retention_percentage": 75.89176018322888,
+        "decay_rate": 0.044501121787110416
+      },
+      "M4D_score": 3.8644889573542445,
+      "processing_time": 27.586206896551722,
+      "notes": ""
+    },
+    {
+      "trial_id": 77,
+      "timestamp": "2026-01-06T09:03:36.211167",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 29.310344827586206
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 3.7984309394588727,
+        "retention_percentage": 74.59449699846688,
+        "decay_rate": 0.044137152880769547
+      },
+      "M4D_score": 3.7984309394588727,
+      "processing_time": 29.310344827586206,
+      "notes": ""
+    },
+    {
+      "trial_id": 78,
+      "timestamp": "2026-01-06T09:03:36.211169",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 31.034482758620687
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 3.7335020907179284,
+        "retention_percentage": 73.31940870813975,
+        "decay_rate": 0.043777240624601664
+      },
+      "M4D_score": 3.7335020907179284,
+      "processing_time": 31.034482758620687,
+      "notes": ""
+    },
+    {
+      "trial_id": 79,
+      "timestamp": "2026-01-06T09:03:36.211186",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 32.75862068965517
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 3.669683109568633,
+        "retention_percentage": 72.06611626353246,
+        "decay_rate": 0.04342133370049586
+      },
+      "M4D_score": 3.669683109568633,
+      "processing_time": 32.75862068965517,
+      "notes": ""
+    },
+    {
+      "trial_id": 80,
+      "timestamp": "2026-01-06T09:03:36.211188",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 34.48275862068965
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 3.6069550243813513,
+        "retention_percentage": 70.83424709523614,
+        "decay_rate": 0.04306938148590224
+      },
+      "M4D_score": 3.6069550243813513,
+      "processing_time": 34.48275862068965,
+      "notes": ""
+    },
+    {
+      "trial_id": 81,
+      "timestamp": "2026-01-06T09:03:36.211189",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 36.206896551724135
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 3.5452991878198437,
+        "retention_percentage": 69.62343500239325,
+        "decay_rate": 0.04272133404398663
+      },
+      "M4D_score": 3.5452991878198437,
+      "processing_time": 36.206896551724135,
+      "notes": ""
+    },
+    {
+      "trial_id": 82,
+      "timestamp": "2026-01-06T09:03:36.211192",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 37.93103448275862
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 3.484697271297928,
+        "retention_percentage": 68.43332004383635,
+        "decay_rate": 0.04237714211392865
+      },
+      "M4D_score": 3.484697271297928,
+      "processing_time": 37.93103448275862,
+      "notes": ""
+    },
+    {
+      "trial_id": 83,
+      "timestamp": "2026-01-06T09:03:36.211193",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 39.6551724137931
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 3.42513125953089,
+        "retention_percentage": 67.26354843108723,
+        "decay_rate": 0.0420367571013614
+      },
+      "M4D_score": 3.42513125953089,
+      "processing_time": 39.6551724137931,
+      "notes": ""
+    },
+    {
+      "trial_id": 84,
+      "timestamp": "2026-01-06T09:03:36.211195",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 41.37931034482759
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 3.36658344518004,
+        "retention_percentage": 66.11377242318554,
+        "decay_rate": 0.04170013106895022
+      },
+      "M4D_score": 3.36658344518004,
+      "processing_time": 41.37931034482759,
+      "notes": ""
+    },
+    {
+      "trial_id": 85,
+      "timestamp": "2026-01-06T09:03:36.211198",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 43.103448275862064
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 3.309036423588802,
+        "retention_percentage": 64.98365022331481,
+        "decay_rate": 0.041367216727108934
+      },
+      "M4D_score": 3.309036423588802,
+      "processing_time": 43.103448275862064,
+      "notes": ""
+    },
+    {
+      "trial_id": 86,
+      "timestamp": "2026-01-06T09:03:36.211200",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 44.82758620689655
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 3.252473087608793,
+        "retention_percentage": 63.872845877195736,
+        "decay_rate": 0.0410379674248511
+      },
+      "M4D_score": 3.252473087608793,
+      "processing_time": 44.82758620689655,
+      "notes": ""
+    },
+    {
+      "trial_id": 87,
+      "timestamp": "2026-01-06T09:03:36.211203",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 46.55172413793103
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 3.1968766225143317,
+        "retention_percentage": 62.781029173216126,
+        "decay_rate": 0.04071233714077467
+      },
+      "M4D_score": 3.1968766225143317,
+      "processing_time": 46.55172413793103,
+      "notes": ""
+    },
+    {
+      "trial_id": 88,
+      "timestamp": "2026-01-06T09:03:36.211206",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 48.275862068965516
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 3.1422305010038887,
+        "retention_percentage": 61.70787554426814,
+        "decay_rate": 0.04039028047417761
+      },
+      "M4D_score": 3.1422305010038887,
+      "processing_time": 48.275862068965516,
+      "notes": ""
+    },
+    {
+      "trial_id": 89,
+      "timestamp": "2026-01-06T09:03:36.211207",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "peak_time": 30.0,
+        "decay_time": 50.0
+      },
+      "output_metrics": {
+        "peak_M4D": 5.092106110102118,
+        "current_M4D": 3.0885184782869692,
+        "retention_percentage": 60.653065971263345,
+        "decay_rate": 0.04007175263630297
+      },
+      "M4D_score": 3.0885184782869692,
+      "processing_time": 50.0,
+      "notes": ""
+    }
+  ],
+  "summary_statistics": {
+    "standard": {
+      "mean_retention": 53.52676884461838,
+      "final_retention": 23.965103644177578,
+      "half_life": 25.86206896551724,
+      "decay_resistance": 2.0
+    },
+    "deep_understanding": {
+      "mean_retention": 73.07998674833786,
+      "final_retention": 51.3417119032592,
+      "half_life": 50.0,
+      "decay_resistance": 2.0
+    },
+    "emotional_learning": {
+      "mean_retention": 78.7501746441154,
+      "final_retention": 60.653065971263345,
+      "half_life": 50.0,
+      "decay_resistance": 2.0
+    }
+  },
+  "conclusion": "\nCONCLUSION:\n- Emotional Learning retains 60.7% after decay period\n- Deep Understanding retains 51.3%\n- Standard sequence retains 24.0%\n- Higher amplification = stronger retention\n- HYPOTHESIS SUPPORTED: Sequence amplification affects retention strength\n"
+}

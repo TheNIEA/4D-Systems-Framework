@@ -1,0 +1,97 @@
+{
+  "test_date": "2026-01-19T11:56:35.921990",
+  "average_innovation_score": 0.13999999999999999,
+  "results": [
+    {
+      "problem": "Impossible Triangle Resolution",
+      "time_elapsed": 0.0002167224884033203,
+      "pathway_used": "standard",
+      "new_capabilities_created": 0,
+      "new_pathways_created": 0,
+      "memory_growth": {
+        "experiences_added": 4,
+        "nodes_created": 4,
+        "anchors_promoted": 0
+      },
+      "innovation_score": 0.30000000000000004,
+      "innovation_type": "PATTERN_APPLICATION",
+      "evidence": [],
+      "semantic_evidence": [
+        "Dissolved 4 experiences into memory",
+        "Created 4 new secondary nodes (semantic pathways)"
+      ]
+    },
+    {
+      "problem": "Emergent Property Discovery",
+      "time_elapsed": 0.00018215179443359375,
+      "pathway_used": "standard",
+      "new_capabilities_created": 0,
+      "new_pathways_created": 0,
+      "memory_growth": {
+        "experiences_added": 4,
+        "nodes_created": 0,
+        "anchors_promoted": 0
+      },
+      "innovation_score": 0.1,
+      "innovation_type": "NO_INNOVATION",
+      "evidence": [],
+      "semantic_evidence": [
+        "Dissolved 4 experiences into memory"
+      ]
+    },
+    {
+      "problem": "Negative Space Problem",
+      "time_elapsed": 0.0001800060272216797,
+      "pathway_used": "standard",
+      "new_capabilities_created": 0,
+      "new_pathways_created": 0,
+      "memory_growth": {
+        "experiences_added": 4,
+        "nodes_created": 0,
+        "anchors_promoted": 0
+      },
+      "innovation_score": 0.1,
+      "innovation_type": "NO_INNOVATION",
+      "evidence": [],
+      "semantic_evidence": [
+        "Dissolved 4 experiences into memory"
+      ]
+    },
+    {
+      "problem": "Self-Reference Creation",
+      "time_elapsed": 0.00017189979553222656,
+      "pathway_used": "standard",
+      "new_capabilities_created": 0,
+      "new_pathways_created": 0,
+      "memory_growth": {
+        "experiences_added": 4,
+        "nodes_created": 0,
+        "anchors_promoted": 0
+      },
+      "innovation_score": 0.1,
+      "innovation_type": "NO_INNOVATION",
+      "evidence": [],
+      "semantic_evidence": [
+        "Dissolved 4 experiences into memory"
+      ]
+    },
+    {
+      "problem": "Capability Meta-Design",
+      "time_elapsed": 0.00017786026000976562,
+      "pathway_used": "standard",
+      "new_capabilities_created": 0,
+      "new_pathways_created": 0,
+      "memory_growth": {
+        "experiences_added": 4,
+        "nodes_created": 0,
+        "anchors_promoted": 0
+      },
+      "innovation_score": 0.1,
+      "innovation_type": "NO_INNOVATION",
+      "evidence": [],
+      "semantic_evidence": [
+        "Dissolved 4 experiences into memory"
+      ]
+    }
+  ]
+}

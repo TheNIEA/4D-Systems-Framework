@@ -1,0 +1,76 @@
+{
+  "metrics": {
+    "self_awareness": 0.5,
+    "autonomy": 1.0,
+    "meta_cognition": 0.6,
+    "emotional_intelligence": 0.0,
+    "learning_autonomy": 0.2,
+    "flexibility": 0.3333333333333333,
+    "path_intelligence": 0.5,
+    "overall_consciousness": 0.5083333333333334
+  },
+  "test_results": [
+    {
+      "test": "self_awareness",
+      "passed": false,
+      "score": 0.0,
+      "details": {
+        "recognizes_conflict": false,
+        "self_corrects": true,
+        "pathway_strength": 0.05,
+        "success_rate": 0.0
+      }
+    },
+    {
+      "test": "intentionality",
+      "passed": false,
+      "score": 0.7,
+      "details": {
+        "has_intention": true,
+        "internally_driven": false,
+        "coherence_achieved": false
+      }
+    },
+    {
+      "test": "meta_cognition",
+      "passed": true,
+      "score": 0.6,
+      "details": {
+        "meta_awareness": "dimensional_bias_detected",
+        "biases": {
+          "Executive": 0.0,
+          "Pattern": 1.0
+        },
+        "intention": "recalibrate_nodes",
+        "recommended_action": "adjust_node_evaluation_functions",
+        "consciousness_level": "aware_of_bias"
+      }
+    },
+    {
+      "test": "autonomy",
+      "passed": true,
+      "score": 1.0,
+      "details": {
+        "autonomy_ratio": 1.0,
+        "development_increase": 0.01895325117491997,
+        "self_directed_actions": 50
+      }
+    },
+    {
+      "test": "creativity",
+      "passed": false,
+      "score": 0.2,
+      "details": {
+        "nodes_activated": 0,
+        "synthesized": false,
+        "recognized_novelty": false,
+        "coherence": 0.4720202179656715
+      }
+    }
+  ],
+  "summary": {
+    "tests_passed": 2,
+    "avg_test_score": 0.5,
+    "overall_consciousness": 0.5083333333333334
+  }
+}

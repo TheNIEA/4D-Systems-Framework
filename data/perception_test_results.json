@@ -1,0 +1,76 @@
+[
+  {
+    "test": "pattern",
+    "interpretation": {
+      "opinion": "structured pattern detected",
+      "reasoning": [
+        "Capabilities identified structural properties",
+        "Executed 7 capabilities successfully"
+      ],
+      "confidence": 0.95,
+      "capabilities_used": 9,
+      "capabilities_executed": 7,
+      "raw_outputs": [
+        "CapabilityResult(success=True, output={'input_type': 'list', 'analyzed_text': '[1, 0, 1, 0, 1] [0, 1, 0, 1, 0] [1, 0, 1, 0, 1] [0, 1, 0, 1, 0] [1, 0, 1, 0, 1]', 'patterns_found': 25, 'pattern_matches'",
+        "CapabilityResult(success=True, output={'features': {'complexity': 5, 'relationships': 4, 'abstraction_level': 1, 'semantic_density': 11.0, 'structural_patterns': {'hierarchy_depth': 0, 'connectivity':",
+        "CapabilityResult(success=True, output={'pattern_type': 'unknown', 'confidence': 1.0, 'keywords': [], 'context': {'text_length': 25, 'create_keyword_count': 0, 'manage_keyword_count': 0, 'all_confidenc"
+      ]
+    }
+  },
+  {
+    "test": "sequence",
+    "interpretation": {
+      "opinion": "structured pattern detected + sequential pattern",
+      "reasoning": [
+        "Capabilities identified structural properties",
+        "Capabilities detected progression logic",
+        "Executed 7 capabilities successfully"
+      ],
+      "confidence": 0.95,
+      "capabilities_used": 9,
+      "capabilities_executed": 7,
+      "raw_outputs": [
+        "CapabilityResult(success=True, output={'input_type': 'list', 'analyzed_text': '1 1 2 3 5 8 13 21', 'patterns_found': 8, 'pattern_matches': [{'type': 'number_sequence', 'confidence': 0.8200000000000001",
+        "CapabilityResult(success=True, output={'features': {'complexity': 8, 'relationships': 7, 'abstraction_level': 1, 'semantic_density': 18.5, 'structural_patterns': {'hierarchy_depth': 0, 'connectivity':",
+        "CapabilityResult(success=True, output={'pattern_type': 'unknown', 'confidence': 1.0, 'keywords': [], 'context': {'text_length': 8, 'create_keyword_count': 0, 'manage_keyword_count': 0, 'all_confidence"
+      ]
+    }
+  },
+  {
+    "test": "text",
+    "interpretation": {
+      "opinion": "structured pattern detected",
+      "reasoning": [
+        "Capabilities identified structural properties",
+        "Executed 10 capabilities successfully"
+      ],
+      "confidence": 0.95,
+      "capabilities_used": 10,
+      "capabilities_executed": 10,
+      "raw_outputs": [
+        "CapabilityResult(success=True, output={'id': 'pathway_1', 'name': \"The room was cold. She hadn't spoken in hours.\\n            Outside, the wind picked up. The clock stopped at 3:47.\", 'description': ",
+        "CapabilityResult(success=True, output={'structure_id': 'structure_str_2760', 'structure_type': 'hierarchical', 'nodes_created': 19, 'pathways_created': 3, 'analysis': {'structure_id': 'structure_str_2",
+        "CapabilityResult(success=True, output={'structure_built': True, 'pathway_id': 'auto_str_pathway', 'analyzer_type': 'str_analyzer', 'analysis_result': {'structure_name': 'auto_structure_str', 'pathway_"
+      ]
+    }
+  },
+  {
+    "test": "data_anomaly",
+    "interpretation": {
+      "opinion": "structured pattern detected + sequential pattern",
+      "reasoning": [
+        "Capabilities identified structural properties",
+        "Capabilities detected progression logic",
+        "Executed 7 capabilities successfully"
+      ],
+      "confidence": 0.95,
+      "capabilities_used": 9,
+      "capabilities_executed": 7,
+      "raw_outputs": [
+        "CapabilityResult(success=True, output={'input_type': 'list', 'analyzed_text': '45 47 46 48 45 47 46 48 45 92 46 47', 'patterns_found': 12, 'pattern_matches': [{'type': 'number_sequence', 'confidence':",
+        "CapabilityResult(success=True, output={'features': {'complexity': 12, 'relationships': 11, 'abstraction_level': 1, 'semantic_density': 28.5, 'structural_patterns': {'hierarchy_depth': 0, 'connectivity",
+        "CapabilityResult(success=True, output={'pattern_type': 'unknown', 'confidence': 1.0, 'keywords': [], 'context': {'text_length': 12, 'create_keyword_count': 0, 'manage_keyword_count': 0, 'all_confidenc"
+      ]
+    }
+  }
+]

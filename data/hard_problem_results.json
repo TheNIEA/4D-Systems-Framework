@@ -1,0 +1,58 @@
+[
+  {
+    "problem": "Tower of Hanoi (3 disks)",
+    "success": false,
+    "confidence": 0.3,
+    "answer": "Processed through 0 nodes using sequence dynamic_0",
+    "sequence_used": "dynamic_0",
+    "nodes_activated": 0
+  },
+  {
+    "problem": "Abstract Pattern Completion",
+    "success": false,
+    "confidence": 0.3,
+    "answer": "Processed through 0 nodes using sequence dynamic_1",
+    "sequence_used": "dynamic_1",
+    "nodes_activated": 0
+  },
+  {
+    "problem": "Logical Paradox Resolution",
+    "success": false,
+    "confidence": 0.3,
+    "answer": "Processed through 0 nodes using sequence dynamic_2",
+    "sequence_used": "dynamic_2",
+    "nodes_activated": 0
+  },
+  {
+    "problem": "Resource Allocation Under Constraints",
+    "success": false,
+    "confidence": 0.3,
+    "answer": "Processed through 0 nodes using sequence dynamic_3",
+    "sequence_used": "dynamic_3",
+    "nodes_activated": 0
+  },
+  {
+    "problem": "Causal Reasoning from Data",
+    "success": false,
+    "confidence": 0.3,
+    "answer": "Processed through 0 nodes using sequence dynamic_4",
+    "sequence_used": "dynamic_4",
+    "nodes_activated": 0
+  },
+  {
+    "problem": "Creative Problem Solving: Nine Dots",
+    "success": false,
+    "confidence": 0.3,
+    "answer": "Processed through 0 nodes using sequence dynamic_5",
+    "sequence_used": "dynamic_5",
+    "nodes_activated": 0
+  },
+  {
+    "problem": "Multi-Step Inference Chain",
+    "success": false,
+    "confidence": 0.3,
+    "answer": "Processed through 0 nodes using sequence dynamic_6",
+    "sequence_used": "dynamic_6",
+    "nodes_activated": 0
+  }
+]

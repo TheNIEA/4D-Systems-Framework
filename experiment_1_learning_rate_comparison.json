@@ -1,0 +1,1831 @@
+{
+  "experiment_name": "Learning Rate Comparison",
+  "experiment_type": "learning_rate_comparison",
+  "hypothesis": "Different sequences produce different learning rates",
+  "start_time": "2026-01-06T09:03:36.207293",
+  "end_time": "2026-01-06T09:03:36.210693",
+  "total_trials": 60,
+  "trials": [
+    {
+      "trial_id": 0,
+      "timestamp": "2026-01-06T09:03:36.207293",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "time": 0.0,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 1.9960849999999997,
+        "M4D_amplified": 1.3972594999999997,
+        "learning_rate": 0.0,
+        "efficiency": 1.3972594999999997
+      },
+      "M4D_score": 1.3972594999999997,
+      "processing_time": 0.0,
+      "notes": ""
+    },
+    {
+      "trial_id": 1,
+      "timestamp": "2026-01-06T09:03:36.207358",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "time": 2.6315789473684212,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 1.8797069916407187,
+        "M4D_amplified": 1.3157948941485031,
+        "learning_rate": -0.03095655022356867,
+        "efficiency": 0.36232033317132695
+      },
+      "M4D_score": 1.3157948941485031,
+      "processing_time": 2.6315789473684212,
+      "notes": ""
+    },
+    {
+      "trial_id": 2,
+      "timestamp": "2026-01-06T09:03:36.207416",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "time": 5.2631578947368425,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 1.8273276161681635,
+        "M4D_amplified": 1.2791293313177143,
+        "learning_rate": -0.013932913875699747,
+        "efficiency": 0.20423073357173588
+      },
+      "M4D_score": 1.2791293313177143,
+      "processing_time": 5.2631578947368425,
+      "notes": ""
+    },
+    {
+      "trial_id": 3,
+      "timestamp": "2026-01-06T09:03:36.207474",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "time": 7.894736842105264,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 1.8235535224080688,
+        "M4D_amplified": 1.276487465685648,
+        "learning_rate": -0.0010039089401852185,
+        "efficiency": 0.14351042513625628
+      },
+      "M4D_score": 1.276487465685648,
+      "processing_time": 7.894736842105264,
+      "notes": ""
+    },
+    {
+      "trial_id": 4,
+      "timestamp": "2026-01-06T09:03:36.207531",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "time": 10.526315789473685,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 1.8560163301377166,
+        "M4D_amplified": 1.2992114310964016,
+        "learning_rate": 0.008635106856086372,
+        "efficiency": 0.11271697347411702
+      },
+      "M4D_score": 1.2992114310964016,
+      "processing_time": 10.526315789473685,
+      "notes": ""
+    },
+    {
+      "trial_id": 5,
+      "timestamp": "2026-01-06T09:03:36.207587",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "time": 13.157894736842106,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 1.9147843898878028,
+        "M4D_amplified": 1.3403490729214618,
+        "learning_rate": 0.01563230389352287,
+        "efficiency": 0.09467149585690622
+      },
+      "M4D_score": 1.3403490729214618,
+      "processing_time": 13.157894736842106,
+      "notes": ""
+    },
+    {
+      "trial_id": 6,
+      "timestamp": "2026-01-06T09:03:36.207650",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "time": 15.789473684210527,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 1.9919074121890648,
+        "M4D_amplified": 1.3943351885323452,
+        "learning_rate": 0.02051472393213569,
+        "efficiency": 0.08304817737339987
+      },
+      "M4D_score": 1.3943351885323452,
+      "processing_time": 15.789473684210527,
+      "notes": ""
+    },
+    {
+      "trial_id": 7,
+      "timestamp": "2026-01-06T09:03:36.207707",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "time": 18.42105263157895,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.0810589423145713,
+        "M4D_amplified": 1.4567412596201998,
+        "learning_rate": 0.023714307013384776,
+        "efficiency": 0.0750083575414195
+      },
+      "M4D_score": 1.4567412596201998,
+      "processing_time": 18.42105263157895,
+      "notes": ""
+    },
+    {
+      "trial_id": 8,
+      "timestamp": "2026-01-06T09:03:36.207764",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "time": 21.05263157894737,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.1772507215603385,
+        "M4D_amplified": 1.5240755050922368,
+        "learning_rate": 0.02558701327937403,
+        "efficiency": 0.06911082242661694
+      },
+      "M4D_score": 1.5240755050922368,
+      "processing_time": 21.05263157894737,
+      "notes": ""
+    },
+    {
+      "trial_id": 9,
+      "timestamp": "2026-01-06T09:03:36.207820",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "time": 23.68421052631579,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.2766001482481704,
+        "M4D_amplified": 1.5936201037737192,
+        "learning_rate": 0.026426947498963325,
+        "efficiency": 0.06456030271151528
+      },
+      "M4D_score": 1.5936201037737192,
+      "processing_time": 23.68421052631579,
+      "notes": ""
+    },
+    {
+      "trial_id": 10,
+      "timestamp": "2026-01-06T09:03:36.207876",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "time": 26.315789473684212,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.376137581944481,
+        "M4D_amplified": 1.6632963073611367,
+        "learning_rate": 0.026476957363218624,
+        "efficiency": 0.06089138697468515
+      },
+      "M4D_score": 1.6632963073611367,
+      "processing_time": 26.315789473684212,
+      "notes": ""
+    },
+    {
+      "trial_id": 11,
+      "timestamp": "2026-01-06T09:03:36.207931",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "time": 28.947368421052634,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.473644353268669,
+        "M4D_amplified": 1.7315510472880684,
+        "learning_rate": 0.025936801172234066,
+        "efficiency": 0.05781980649995307
+      },
+      "M4D_score": 1.7315510472880684,
+      "processing_time": 28.947368421052634,
+      "notes": ""
+    },
+    {
+      "trial_id": 12,
+      "timestamp": "2026-01-06T09:03:36.207987",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "time": 31.578947368421055,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.567515280953748,
+        "M4D_amplified": 1.7972606966676234,
+        "learning_rate": 0.024969666764230913,
+        "efficiency": 0.05516632186863464
+      },
+      "M4D_score": 1.7972606966676234,
+      "processing_time": 31.578947368421055,
+      "notes": ""
+    },
+    {
+      "trial_id": 13,
+      "timestamp": "2026-01-06T09:03:36.208043",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "time": 34.21052631578948,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.6566414922199497,
+        "M4D_amplified": 1.8596490445539646,
+        "learning_rate": 0.023707572196809613,
+        "efficiency": 0.05281514476311707
+      },
+      "M4D_score": 1.8596490445539646,
+      "processing_time": 34.21052631578948,
+      "notes": ""
+    },
+    {
+      "trial_id": 14,
+      "timestamp": "2026-01-06T09:03:36.208099",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "time": 36.8421052631579,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.7403106191587225,
+        "M4D_amplified": 1.9182174334111057,
+        "learning_rate": 0.02225598776571365,
+        "efficiency": 0.05069002953381225
+      },
+      "M4D_score": 1.9182174334111057,
+      "processing_time": 36.8421052631579,
+      "notes": ""
+    },
+    {
+      "trial_id": 15,
+      "timestamp": "2026-01-06T09:03:36.208155",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "time": 39.473684210526315,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.8181222084457813,
+        "M4D_amplified": 1.9726855459120467,
+        "learning_rate": 0.020697882750357593,
+        "efficiency": 0.04873995497051871
+      },
+      "M4D_score": 1.9726855459120467,
+      "processing_time": 39.473684210526315,
+      "notes": ""
+    },
+    {
+      "trial_id": 16,
+      "timestamp": "2026-01-06T09:03:36.208211",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "time": 42.10526315789474,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.8899166075008162,
+        "M4D_amplified": 2.022941625250571,
+        "learning_rate": 0.01909731014863928,
+        "efficiency": 0.04693026969445769
+      },
+      "M4D_score": 2.022941625250571,
+      "processing_time": 42.10526315789474,
+      "notes": ""
+    },
+    {
+      "trial_id": 17,
+      "timestamp": "2026-01-06T09:03:36.208266",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "time": 44.736842105263165,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.955715812199296,
+        "M4D_amplified": 2.069001068539507,
+        "learning_rate": 0.0175025884497956,
+        "efficiency": 0.045237077447929375
+      },
+      "M4D_score": 2.069001068539507,
+      "processing_time": 44.736842105263165,
+      "notes": ""
+    },
+    {
+      "trial_id": 18,
+      "timestamp": "2026-01-06T09:03:36.208322",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "time": 47.36842105263158,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 3.015674876381937,
+        "M4D_amplified": 2.1109724134673558,
+        "learning_rate": 0.01594911107258253,
+        "efficiency": 0.043643608113035644
+      },
+      "M4D_score": 2.1109724134673558,
+      "processing_time": 47.36842105263158,
+      "notes": ""
+    },
+    {
+      "trial_id": 19,
+      "timestamp": "2026-01-06T09:03:36.208378",
+      "sequence_used": "standard",
+      "sequence_order": [
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10
+      ],
+      "input_data": {
+        "time": 50.0,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 3.0700425551099633,
+        "M4D_amplified": 2.149029788576974,
+        "learning_rate": 0.014461802541654958,
+        "efficiency": 0.042137838991705374
+      },
+      "M4D_score": 2.149029788576974,
+      "processing_time": 50.0,
+      "notes": ""
+    },
+    {
+      "trial_id": 20,
+      "timestamp": "2026-01-06T09:03:36.208413",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 0.0,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.0315749999999997,
+        "M4D_amplified": 3.0473624999999993,
+        "learning_rate": 0.0,
+        "efficiency": 3.0473624999999993
+      },
+      "M4D_score": 3.0473624999999993,
+      "processing_time": 0.0,
+      "notes": ""
+    },
+    {
+      "trial_id": 21,
+      "timestamp": "2026-01-06T09:03:36.208470",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 2.6315789473684212,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 1.9131278134661063,
+        "M4D_amplified": 2.8696917201991594,
+        "learning_rate": -0.06751489632431916,
+        "efficiency": 0.7902049664316525
+      },
+      "M4D_score": 2.8696917201991594,
+      "processing_time": 2.6315789473684212,
+      "notes": ""
+    },
+    {
+      "trial_id": 22,
+      "timestamp": "2026-01-06T09:03:36.208526",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 5.2631578947368425,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 1.859817142965774,
+        "M4D_amplified": 2.789725714448661,
+        "learning_rate": -0.03038708218518943,
+        "efficiency": 0.4454183913825593
+      },
+      "M4D_score": 2.789725714448661,
+      "processing_time": 5.2631578947368425,
+      "notes": ""
+    },
+    {
+      "trial_id": 23,
+      "timestamp": "2026-01-06T09:03:36.208582",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 7.894736842105264,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 1.8559759465584738,
+        "M4D_amplified": 2.783963919837711,
+        "learning_rate": -0.0021894819521610207,
+        "efficiency": 0.3129900264906302
+      },
+      "M4D_score": 2.783963919837711,
+      "processing_time": 7.894736842105264,
+      "notes": ""
+    },
+    {
+      "trial_id": 24,
+      "timestamp": "2026-01-06T09:03:36.208638",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 10.526315789473685,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 1.8890159366457497,
+        "M4D_amplified": 2.8335239049686245,
+        "learning_rate": 0.018832794349747183,
+        "efficiency": 0.24583084107033726
+      },
+      "M4D_score": 2.8335239049686245,
+      "processing_time": 10.526315789473685,
+      "notes": ""
+    },
+    {
+      "trial_id": 25,
+      "timestamp": "2026-01-06T09:03:36.208694",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 13.157894736842106,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 1.9488288809776702,
+        "M4D_amplified": 2.9232433214665052,
+        "learning_rate": 0.034093378269194674,
+        "efficiency": 0.20647443534521784
+      },
+      "M4D_score": 2.9232433214665052,
+      "processing_time": 13.157894736842106,
+      "notes": ""
+    },
+    {
+      "trial_id": 26,
+      "timestamp": "2026-01-06T09:03:36.208750",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 15.789473684210527,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.0273231354967347,
+        "M4D_amplified": 3.040984703245102,
+        "learning_rate": 0.044741725075866795,
+        "efficiency": 0.18112448075754525
+      },
+      "M4D_score": 3.040984703245102,
+      "processing_time": 15.789473684210527,
+      "notes": ""
+    },
+    {
+      "trial_id": 27,
+      "timestamp": "2026-01-06T09:03:36.208806",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 18.42105263157895,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.118059762351165,
+        "M4D_amplified": 3.1770896435267475,
+        "learning_rate": 0.051719877307025264,
+        "efficiency": 0.16358998164500868
+      },
+      "M4D_score": 3.1770896435267475,
+      "processing_time": 18.42105263157895,
+      "notes": ""
+    },
+    {
+      "trial_id": 28,
+      "timestamp": "2026-01-06T09:03:36.208862",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 21.05263157894737,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.215961812575088,
+        "M4D_amplified": 3.3239427188626323,
+        "learning_rate": 0.05580416862763621,
+        "efficiency": 0.15072771278852032
+      },
+      "M4D_score": 3.3239427188626323,
+      "processing_time": 21.05263157894737,
+      "notes": ""
+    },
+    {
+      "trial_id": 29,
+      "timestamp": "2026-01-06T09:03:36.208918",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 23.68421052631579,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.3170776525935906,
+        "M4D_amplified": 3.4756164788903856,
+        "learning_rate": 0.05763602881054627,
+        "efficiency": 0.1408032262237043
+      },
+      "M4D_score": 3.4756164788903856,
+      "processing_time": 23.68421052631579,
+      "notes": ""
+    },
+    {
+      "trial_id": 30,
+      "timestamp": "2026-01-06T09:03:36.208974",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 26.315789473684212,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.418384842348326,
+        "M4D_amplified": 3.6275772635224888,
+        "learning_rate": 0.057745098160199196,
+        "efficiency": 0.1328014797821335
+      },
+      "M4D_score": 3.6275772635224888,
+      "processing_time": 26.315789473684212,
+      "notes": ""
+    },
+    {
+      "trial_id": 31,
+      "timestamp": "2026-01-06T09:03:36.209031",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 28.947368421052634,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.5176252649520423,
+        "M4D_amplified": 3.7764378974280635,
+        "learning_rate": 0.05656704088411838,
+        "efficiency": 0.12610249569619192
+      },
+      "M4D_score": 3.7764378974280635,
+      "processing_time": 28.947368421052634,
+      "notes": ""
+    },
+    {
+      "trial_id": 32,
+      "timestamp": "2026-01-06T09:03:36.209088",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 31.578947368421055,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.6131651993294924,
+        "M4D_amplified": 3.919747798994239,
+        "learning_rate": 0.05445776259514665,
+        "efficiency": 0.12031536055071168
+      },
+      "M4D_score": 3.919747798994239,
+      "processing_time": 31.578947368421055,
+      "notes": ""
+    },
+    {
+      "trial_id": 33,
+      "timestamp": "2026-01-06T09:03:36.209144",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 34.21052631578948,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.7038760571602634,
+        "M4D_amplified": 4.055814085740395,
+        "learning_rate": 0.051705188963539275,
+        "efficiency": 0.11518754503597532
+      },
+      "M4D_score": 4.055814085740395,
+      "processing_time": 34.21052631578948,
+      "notes": ""
+    },
+    {
+      "trial_id": 34,
+      "timestamp": "2026-01-06T09:03:36.209201",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 36.8421052631579,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.789032804774036,
+        "M4D_amplified": 4.183549207161054,
+        "learning_rate": 0.048539346139850406,
+        "efficiency": 0.11055276068993049
+      },
+      "M4D_score": 4.183549207161054,
+      "processing_time": 36.8421052631579,
+      "notes": ""
+    },
+    {
+      "trial_id": 35,
+      "timestamp": "2026-01-06T09:03:36.209257",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 39.473684210526315,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.8682278688649223,
+        "M4D_amplified": 4.3023418032973835,
+        "learning_rate": 0.04514118653180532,
+        "efficiency": 0.10629973246118372
+      },
+      "M4D_score": 4.3023418032973835,
+      "processing_time": 39.473684210526315,
+      "notes": ""
+    },
+    {
+      "trial_id": 36,
+      "timestamp": "2026-01-06T09:03:36.209313",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 42.10526315789474,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.9412987582610315,
+        "M4D_amplified": 4.411948137391548,
+        "learning_rate": 0.041650406955782336,
+        "efficiency": 0.1023528871922337
+      },
+      "M4D_score": 4.411948137391548,
+      "processing_time": 42.10526315789474,
+      "notes": ""
+    },
+    {
+      "trial_id": 37,
+      "timestamp": "2026-01-06T09:03:36.209369",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 44.736842105263165,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 3.0082678599201857,
+        "M4D_amplified": 4.512401789880279,
+        "learning_rate": 0.038172387945717874,
+        "efficiency": 0.09866010817920057
+      },
+      "M4D_score": 4.512401789880279,
+      "processing_time": 44.736842105263165,
+      "notes": ""
+    },
+    {
+      "trial_id": 38,
+      "timestamp": "2026-01-06T09:03:36.209425",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 47.36842105263158,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 3.0692929845099948,
+        "M4D_amplified": 4.603939476764992,
+        "learning_rate": 0.034784321016191104,
+        "efficiency": 0.09518482052071257
+      },
+      "M4D_score": 4.603939476764992,
+      "processing_time": 47.36842105263158,
+      "notes": ""
+    },
+    {
+      "trial_id": 39,
+      "timestamp": "2026-01-06T09:03:36.209482",
+      "sequence_used": "deep_understanding",
+      "sequence_order": [
+        9,
+        7,
+        3,
+        6,
+        5,
+        8,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 50.0,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 3.1246273099079067,
+        "M4D_amplified": 4.68694096486186,
+        "learning_rate": 0.03154056547680959,
+        "efficiency": 0.09190080323258548
+      },
+      "M4D_score": 4.68694096486186,
+      "processing_time": 50.0,
+      "notes": ""
+    },
+    {
+      "trial_id": 40,
+      "timestamp": "2026-01-06T09:03:36.209516",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 0.0,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.0233849999999998,
+        "M4D_amplified": 4.0467699999999995,
+        "learning_rate": 0.0,
+        "efficiency": 4.0467699999999995
+      },
+      "M4D_score": 4.0467699999999995,
+      "processing_time": 0.0,
+      "notes": ""
+    },
+    {
+      "trial_id": 41,
+      "timestamp": "2026-01-06T09:03:36.209572",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 2.6315789473684212,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 1.9054153161217862,
+        "M4D_amplified": 3.8108306322435723,
+        "learning_rate": -0.08965695974744234,
+        "efficiency": 1.0493591596033025
+      },
+      "M4D_score": 3.8108306322435723,
+      "processing_time": 2.6315789473684212,
+      "notes": ""
+    },
+    {
+      "trial_id": 42,
+      "timestamp": "2026-01-06T09:03:36.209628",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 5.2631578947368425,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 1.8523195598586333,
+        "M4D_amplified": 3.7046391197172666,
+        "learning_rate": -0.040352774759996185,
+        "efficiency": 0.5914970023077988
+      },
+      "M4D_score": 3.7046391197172666,
+      "processing_time": 5.2631578947368425,
+      "notes": ""
+    },
+    {
+      "trial_id": 43,
+      "timestamp": "2026-01-06T09:03:36.209684",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 7.894736842105264,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 1.8484938486776112,
+        "M4D_amplified": 3.6969876973552225,
+        "learning_rate": -0.0029075404975767503,
+        "efficiency": 0.4156376701168593
+      },
+      "M4D_score": 3.6969876973552225,
+      "processing_time": 7.894736842105264,
+      "notes": ""
+    },
+    {
+      "trial_id": 44,
+      "timestamp": "2026-01-06T09:03:36.209740",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 10.526315789473685,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 1.8814006428362033,
+        "M4D_amplified": 3.7628012856724067,
+        "learning_rate": 0.025009163560529995,
+        "efficiency": 0.3264530795788846
+      },
+      "M4D_score": 3.7628012856724067,
+      "processing_time": 10.526315789473685,
+      "notes": ""
+    },
+    {
+      "trial_id": 45,
+      "timestamp": "2026-01-06T09:03:36.209797",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 13.157894736842106,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 1.9409724599569316,
+        "M4D_amplified": 3.881944919913863,
+        "learning_rate": 0.045274581011753454,
+        "efficiency": 0.2741894181351799
+      },
+      "M4D_score": 3.881944919913863,
+      "processing_time": 13.157894736842106,
+      "notes": ""
+    },
+    {
+      "trial_id": 46,
+      "timestamp": "2026-01-06T09:03:36.209853",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 15.789473684210527,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.019150276271888,
+        "M4D_amplified": 4.038300552543776,
+        "learning_rate": 0.05941514039936674,
+        "efficiency": 0.24052573823928441
+      },
+      "M4D_score": 4.038300552543776,
+      "processing_time": 15.789473684210527,
+      "notes": ""
+    },
+    {
+      "trial_id": 47,
+      "timestamp": "2026-01-06T09:03:36.209909",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 18.42105263157895,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.1095211115734895,
+        "M4D_amplified": 4.219042223146979,
+        "learning_rate": 0.0686818348292173,
+        "efficiency": 0.2172406564764027
+      },
+      "M4D_score": 4.219042223146979,
+      "processing_time": 18.42105263157895,
+      "notes": ""
+    },
+    {
+      "trial_id": 48,
+      "timestamp": "2026-01-06T09:03:36.209965",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 21.05263157894737,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.207028483879377,
+        "M4D_amplified": 4.414056967758754,
+        "learning_rate": 0.0741056029524743,
+        "efficiency": 0.20016010116328475
+      },
+      "M4D_score": 4.414056967758754,
+      "processing_time": 21.05263157894737,
+      "notes": ""
+    },
+    {
+      "trial_id": 49,
+      "timestamp": "2026-01-06T09:03:36.210021",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 23.68421052631579,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.30773669005234,
+        "M4D_amplified": 4.61547338010468,
+        "learning_rate": 0.076538236691452,
+        "efficiency": 0.18698079791468852
+      },
+      "M4D_score": 4.61547338010468,
+      "processing_time": 23.68421052631579,
+      "notes": ""
+    },
+    {
+      "trial_id": 50,
+      "timestamp": "2026-01-06T09:03:36.210077",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 26.315789473684212,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.408635474562824,
+        "M4D_amplified": 4.817270949125648,
+        "learning_rate": 0.07668307622796788,
+        "efficiency": 0.17635481316644952
+      },
+      "M4D_score": 4.817270949125648,
+      "processing_time": 26.315789473684212,
+      "notes": ""
+    },
+    {
+      "trial_id": 51,
+      "timestamp": "2026-01-06T09:03:36.210133",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 28.947368421052634,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.507475823794341,
+        "M4D_amplified": 5.014951647588682,
+        "learning_rate": 0.07511866541595297,
+        "efficiency": 0.16745884236236372
+      },
+      "M4D_score": 5.014951647588682,
+      "processing_time": 28.947368421052634,
+      "notes": ""
+    },
+    {
+      "trial_id": 52,
+      "timestamp": "2026-01-06T09:03:36.210190",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 31.578947368421055,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.6026306027812436,
+        "M4D_amplified": 5.205261205562487,
+        "learning_rate": 0.07231763203004589,
+        "efficiency": 0.15977376882986633
+      },
+      "M4D_score": 5.205261205562487,
+      "processing_time": 31.578947368421055,
+      "notes": ""
+    },
+    {
+      "trial_id": 53,
+      "timestamp": "2026-01-06T09:03:36.210245",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 34.21052631578948,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.6929757729432677,
+        "M4D_amplified": 5.3859515458865355,
+        "learning_rate": 0.06866232932313826,
+        "efficiency": 0.15296424420305554
+      },
+      "M4D_score": 5.3859515458865355,
+      "processing_time": 34.21052631578948,
+      "notes": ""
+    },
+    {
+      "trial_id": 54,
+      "timestamp": "2026-01-06T09:03:36.210395",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 36.8421052631579,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.7777892234781945,
+        "M4D_amplified": 5.555578446956389,
+        "learning_rate": 0.06445822240654439,
+        "efficiency": 0.14680944435628843
+      },
+      "M4D_score": 5.555578446956389,
+      "processing_time": 36.8421052631579,
+      "notes": ""
+    },
+    {
+      "trial_id": 55,
+      "timestamp": "2026-01-06T09:03:36.210464",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 39.473684210526315,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.8566650241528126,
+        "M4D_amplified": 5.713330048305625,
+        "learning_rate": 0.0599456085127099,
+        "efficiency": 0.14116160067335096
+      },
+      "M4D_score": 5.713330048305625,
+      "processing_time": 39.473684210526315,
+      "notes": ""
+    },
+    {
+      "trial_id": 56,
+      "timestamp": "2026-01-06T09:03:36.210523",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 42.10526315789474,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.929441338854828,
+        "M4D_amplified": 5.858882677709656,
+        "learning_rate": 0.05530999917353154,
+        "efficiency": 0.13592035516054146
+      },
+      "M4D_score": 5.858882677709656,
+      "processing_time": 42.10526315789474,
+      "notes": ""
+    },
+    {
+      "trial_id": 57,
+      "timestamp": "2026-01-06T09:03:36.210580",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 44.736842105263165,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 2.996140464292288,
+        "M4D_amplified": 5.992280928584576,
+        "learning_rate": 0.05069133533246972,
+        "efficiency": 0.13101649901393203
+      },
+      "M4D_score": 5.992280928584576,
+      "processing_time": 44.736842105263165,
+      "notes": ""
+    },
+    {
+      "trial_id": 58,
+      "timestamp": "2026-01-06T09:03:36.210636",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 47.36842105263158,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 3.0569195749419813,
+        "M4D_amplified": 6.113839149883963,
+        "learning_rate": 0.046192124093766815,
+        "efficiency": 0.12640146229357485
+      },
+      "M4D_score": 6.113839149883963,
+      "processing_time": 47.36842105263158,
+      "notes": ""
+    },
+    {
+      "trial_id": 59,
+      "timestamp": "2026-01-06T09:03:36.210693",
+      "sequence_used": "emotional_learning",
+      "sequence_order": [
+        6,
+        3,
+        7,
+        5,
+        8,
+        9,
+        4,
+        2,
+        1,
+        10
+      ],
+      "input_data": {
+        "time": 50.0,
+        "task_type": "cognitive"
+      },
+      "output_metrics": {
+        "M4D_raw": 3.1120308280314584,
+        "M4D_amplified": 6.224061656062917,
+        "learning_rate": 0.041884552348002625,
+        "efficiency": 0.12204042462868464
+      },
+      "M4D_score": 6.224061656062917,
+      "processing_time": 50.0,
+      "notes": ""
+    }
+  ],
+  "summary_statistics": {
+    "standard": {
+      "mean_learning_rate": 0.014283635482962511,
+      "max_learning_rate": 0.026476957363218624,
+      "final_M4D": 2.149029788576974,
+      "efficiency": 0.04298059577153948
+    },
+    "deep_understanding": {
+      "mean_learning_rate": 0.031151990832375347,
+      "max_learning_rate": 0.057745098160199196,
+      "final_M4D": 4.68694096486186,
+      "efficiency": 0.0937388192972372
+    },
+    "emotional_learning": {
+      "mean_learning_rate": 0.041368541465195426,
+      "max_learning_rate": 0.07668307622796788,
+      "final_M4D": 6.224061656062917,
+      "efficiency": 0.12448123312125833
+    }
+  },
+  "conclusion": "\nCONCLUSION:\n- Deep Understanding sequence learns 118.1% faster than Standard\n- Emotional Learning sequence learns 189.6% faster than Standard\n- Final M4D scores: Emotional Learning > Deep Understanding > Standard\n- HYPOTHESIS SUPPORTED: Sequence order significantly affects learning rate\n"
+}

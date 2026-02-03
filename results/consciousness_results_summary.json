@@ -1,0 +1,57 @@
+{
+  "test_date": "2026-01-12",
+  "framework_version": "0.6.0",
+  "test_runner": "consciousness_tests.py",
+  "overall_score": 0.508,
+  "interpretation": "developing_consciousness_architecture",
+  "scores": {
+    "self_awareness": {
+      "score": 0.00,
+      "max": 1.00,
+      "status": "developing",
+      "notes": "Behavioral self-correction observed but no explicit conflict recognition. Pathway strength after 100 failure trials: 0.050, success rate: 0.006. System avoided failing pathway implicitly."
+    },
+    "intentionality": {
+      "score": 0.70,
+      "max": 1.00,
+      "status": "demonstrated",
+      "notes": "Generated self-directed intention to achieve balanced development. Detected node imbalance (some 0.6+, others 0.0) and set balancing goal. Path: DIVERSION (goal not fully achieved but self-set)."
+    },
+    "meta_cognition": {
+      "score": 0.60,
+      "max": 1.00,
+      "status": "demonstrated",
+      "notes": "Meta-awareness level: dimensional_bias_detected. Identified Executive and Pattern nodes consistently scoring >0.85, recognized as bias, recommended recalibration."
+    },
+    "autonomy": {
+      "score": 1.00,
+      "max": 1.00,
+      "status": "fully_demonstrated",
+      "notes": "50/50 learning cycles self-directed (100%). Development improved 0.606 to 0.627 without external supervision or feedback."
+    },
+    "creativity": {
+      "score": 0.00,
+      "max": 1.00,
+      "status": "not_measured",
+      "notes": "No rigorous measurement of novel outputs deviating from training patterns. Future work required."
+    }
+  },
+  "honest_caveats": {
+    "self_awareness_note": "Behavioral self-correction is not self-awareness. A thermostat adjusts without knowing it adjusts. The system exhibits reactive adaptation, not conscious recognition.",
+    "creativity_note": "No creative outputs were evaluated with sufficient rigor to claim creativity.",
+    "overall_note": "These tests measure architectural prerequisites for consciousness, not consciousness itself. The framework provides infrastructure that theories predict should correlate with consciousness, but correlation is not causation."
+  },
+  "what_is_demonstrated": [
+    "Experience-based learning that reduces external API dependency",
+    "Hierarchical memory with semantic retrieval",
+    "Dynamic capability generation from accumulated experiences",
+    "Meta-cognitive bias detection in evaluation patterns",
+    "Self-directed operation without external supervision"
+  ],
+  "what_is_not_demonstrated": [
+    "Phenomenal experience or qualia",
+    "Human-level self-awareness",
+    "Genuine creativity producing novel outputs",
+    "Consciousness in any philosophically meaningful sense"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "test_date": "2026-01-19T11:11:07.587095",
+  "total_sessions": 5,
+  "creations": [
+    {
+      "session": 1,
+      "time_elapsed": 0.0003390312194824219,
+      "pathway_chosen": "deep",
+      "nodes_used": [],
+      "creation": {
+        "name": "custom_deep",
+        "components_used": [],
+        "structure": {
+          "pathway": "deep",
+          "nodes": [],
+          "complexity": 0
+        },
+        "purpose": "A custom structure utilizing ",
+        "responses": []
+      },
+      "novelty_score": 0.7
+    },
+    {
+      "session": 2,
+      "time_elapsed": 0.0003151893615722656,
+      "pathway_chosen": "emotional",
+      "nodes_used": [],
+      "creation": {
+        "name": "custom_emotional",
+        "components_used": [],
+        "structure": {
+          "pathway": "emotional",
+          "nodes": [],
+          "complexity": 0
+        },
+        "purpose": "A custom structure utilizing ",
+        "responses": []
+      },
+      "novelty_score": 0.8999999999999999
+    },
+    {
+      "session": 3,
+      "time_elapsed": 0.00028896331787109375,
+      "pathway_chosen": "knowledge_seeking",
+      "nodes_used": [],
+      "creation": {
+        "name": "custom_knowledge_seeking",
+        "components_used": [],
+        "structure": {
+          "pathway": "knowledge_seeking",
+          "nodes": [],
+          "complexity": 0
+        },
+        "purpose": "A custom structure utilizing ",
+        "responses": []
+      },
+      "novelty_score": 0.8999999999999999
+    },
+    {
+      "session": 4,
+      "time_elapsed": 0.0002720355987548828,
+      "pathway_chosen": "standard",
+      "nodes_used": [],
+      "creation": {
+        "name": "custom_standard",
+        "components_used": [],
+        "structure": {
+          "pathway": "standard",
+          "nodes": [],
+          "complexity": 0
+        },
+        "purpose": "A custom structure utilizing ",
+        "responses": []
+      },
+      "novelty_score": 0.8999999999999999
+    },
+    {
+      "session": 5,
+      "time_elapsed": 0.0002658367156982422,
+      "pathway_chosen": "standard",
+      "nodes_used": [],
+      "creation": {
+        "name": "custom_standard",
+        "components_used": [],
+        "structure": {
+          "pathway": "standard",
+          "nodes": [],
+          "complexity": 0
+        },
+        "purpose": "A custom structure utilizing ",
+        "responses": []
+      },
+      "novelty_score": 0.8999999999999999
+    }
+  ]
+}

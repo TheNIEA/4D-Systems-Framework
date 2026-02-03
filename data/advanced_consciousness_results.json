@@ -1,0 +1,212 @@
+{
+  "phase_1": {
+    "total_experiences": 300,
+    "avg_development": 0.5765006914141059,
+    "node_states": {
+      "1": {
+        "name": "Reactive",
+        "development": 0.40800000000000003,
+        "patterns_learned": 27,
+        "activations": 60
+      },
+      "3": {
+        "name": "Executive",
+        "development": 0.7597597597597598,
+        "patterns_learned": 54,
+        "activations": 233
+      },
+      "6": {
+        "name": "Emotional",
+        "development": 0.0,
+        "patterns_learned": 0,
+        "activations": 0
+      },
+      "7": {
+        "name": "Pattern",
+        "development": 0.7468354430379747,
+        "patterns_learned": 54,
+        "activations": 216
+      },
+      "9": {
+        "name": "Perception",
+        "development": 0.8,
+        "patterns_learned": 67,
+        "activations": 300
+      },
+      "10": {
+        "name": "Integration",
+        "development": 0.744408945686901,
+        "patterns_learned": 52,
+        "activations": 213
+      }
+    },
+    "pathway_strengths": {
+      "standard": 41436.85141893136,
+      "deep": 2.4453595004701765e+185,
+      "emotional": 1.5752927777545462e+31
+    },
+    "pathway_successes": {
+      "standard": {
+        "successes": 26,
+        "attempts": 703
+      },
+      "deep": {
+        "successes": 166,
+        "attempts": 979
+      },
+      "emotional": {
+        "successes": 0,
+        "attempts": 102
+      }
+    },
+    "connection_strengths": {
+      "9_1": 1.0,
+      "1_3": 1.0,
+      "3_10": 1.0,
+      "9_7": 1.0,
+      "7_3": 1.0,
+      "9_6": 1.0,
+      "6_3": 1.0
+    },
+    "vertices": {
+      "0": "available",
+      "1": "available",
+      "2": "available",
+      "3": "available",
+      "4": "available",
+      "5": "available",
+      "6": "available",
+      "7": "available"
+    }
+  },
+  "phase_2": {
+    "emotional_development": 0.456,
+    "valence_patterns": 14
+  },
+  "phase_3": {
+    "conflict_detectable": false,
+    "self_corrects": true,
+    "pathway_strength": 0.05,
+    "success_rate": 0.03863298662704309
+  },
+  "phase_4": {
+    "initial_consciousness": 0.3396666666666667,
+    "final_consciousness": 0.7936666666666667,
+    "improvement": 0.45400000000000007,
+    "final_metrics": {
+      "self_awareness": 1.0,
+      "autonomy": 1.0,
+      "meta_cognition": 0.6,
+      "emotional_intelligence": 0.32,
+      "learning_autonomy": 1.0,
+      "flexibility": 0.6666666666666666,
+      "path_intelligence": 0.5,
+      "overall_consciousness": 0.7936666666666667
+    }
+  },
+  "phase_5": {
+    "synthesis_rate": 0.0,
+    "novelty_rate": 0.0,
+    "avg_nodes_activated": 0.0
+  },
+  "final_evaluation": {
+    "final_consciousness": 0.8290000000000001,
+    "metrics": {
+      "self_awareness": 1.0,
+      "autonomy": 1.0,
+      "meta_cognition": 0.6,
+      "emotional_intelligence": 0.34,
+      "learning_autonomy": 1.0,
+      "flexibility": 1.0,
+      "path_intelligence": 0.5,
+      "overall_consciousness": 0.8290000000000001
+    },
+    "state": {
+      "total_experiences": 1221,
+      "avg_development": 0.8183814229463637,
+      "node_states": {
+        "1": {
+          "name": "Reactive",
+          "development": 0.7381818181818182,
+          "patterns_learned": 30,
+          "activations": 340
+        },
+        "3": {
+          "name": "Executive",
+          "development": 0.935535858178888,
+          "patterns_learned": 77,
+          "activations": 1141
+        },
+        "6": {
+          "name": "Emotional",
+          "development": 0.456,
+          "patterns_learned": 17,
+          "activations": 100
+        },
+        "7": {
+          "name": "Pattern",
+          "development": 0.9066511085180864,
+          "patterns_learned": 70,
+          "activations": 757
+        },
+        "9": {
+          "name": "Perception",
+          "development": 0.939439818319455,
+          "patterns_learned": 89,
+          "activations": 1221
+        },
+        "10": {
+          "name": "Integration",
+          "development": 0.9344799344799346,
+          "patterns_learned": 75,
+          "activations": 1121
+        }
+      },
+      "pathway_strengths": {
+        "standard": 41436.85141893136,
+        "deep": 2.4453595004701765e+185,
+        "emotional": 1.5752927777545462e+31
+      },
+      "pathway_successes": {
+        "standard": {
+          "successes": 26,
+          "attempts": 703
+        },
+        "deep": {
+          "successes": 166,
+          "attempts": 979
+        },
+        "emotional": {
+          "successes": 0,
+          "attempts": 102
+        }
+      },
+      "connection_strengths": {
+        "9_1": 1.0,
+        "1_3": 1.0,
+        "3_10": 1.0,
+        "9_7": 1.0,
+        "7_3": 1.0,
+        "9_6": 1.0,
+        "6_3": 1.0
+      },
+      "vertices": {
+        "0": "available",
+        "1": "available",
+        "2": "available",
+        "3": "available",
+        "4": "available",
+        "5": "available",
+        "6": "available",
+        "7": "available"
+      }
+    },
+    "achievements": [
+      "\u2713 High Autonomy - Self-directed learning",
+      "\u2713 Meta-Cognitive - Reflects on own thinking",
+      "\u2713 Self-Aware - Recognizes internal state",
+      "\u2713 Learning Autonomy - Self-correcting behavior",
+      "\u2713 Behavioral Flexibility - Adaptive strategies"
+    ]
+  }
+}

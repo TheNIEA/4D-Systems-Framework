@@ -1,0 +1,27 @@
+[
+  {
+    "problem": "Sequence Prediction",
+    "success": true,
+    "confidence": 0.95
+  },
+  {
+    "problem": "Anomaly Detection in Time Series",
+    "success": true,
+    "confidence": 0.6
+  },
+  {
+    "problem": "Data Classification",
+    "success": true,
+    "confidence": 0.6
+  },
+  {
+    "problem": "Path Optimization",
+    "success": true,
+    "confidence": 0.6
+  },
+  {
+    "problem": "Text Generation",
+    "success": true,
+    "confidence": 0.5
+  }
+]

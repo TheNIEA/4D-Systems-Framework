@@ -1,0 +1,52 @@
+[
+  {
+    "problem": "Pattern Recognition: Fibonacci",
+    "type": "pattern",
+    "sequence": "dynamic_0",
+    "pathway_changes": {
+      "standard": 0.0,
+      "deep": 0.0,
+      "emotional": 0.0
+    }
+  },
+  {
+    "problem": "Logical Reasoning: Syllogism",
+    "type": "logic",
+    "sequence": "dynamic_1",
+    "pathway_changes": {
+      "standard": 0.0,
+      "deep": 0.0,
+      "emotional": 0.0
+    }
+  },
+  {
+    "problem": "Creative Problem: Nine Dots",
+    "type": "creative",
+    "sequence": "dynamic_2",
+    "pathway_changes": {
+      "standard": 0.0,
+      "deep": 0.0,
+      "emotional": 0.0
+    }
+  },
+  {
+    "problem": "Optimization: Resource Allocation",
+    "type": "optimization",
+    "sequence": "dynamic_3",
+    "pathway_changes": {
+      "standard": 0.0,
+      "deep": 0.0,
+      "emotional": 0.0
+    }
+  },
+  {
+    "problem": "Causal Analysis: Sales Data",
+    "type": "analysis",
+    "sequence": "dynamic_4",
+    "pathway_changes": {
+      "standard": 0.0,
+      "deep": 0.0,
+      "emotional": 0.0
+    }
+  }
+]

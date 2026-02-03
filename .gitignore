@@ -1,0 +1,196 @@
+# 4D Systems Framework - Git Ignore File
+
+# =============================================================================
+# SENSITIVE FILES - NEVER COMMIT
+# =============================================================================
+
+# API Keys and Secrets
+*.env
+.env.*
+secrets.json
+*api_key*
+*apikey*
+
+# Local configuration with potential secrets
+local_config.py
+local_settings.py
+
+# =============================================================================
+# LARGE GENERATED FILES - DON'T COMMIT (samples provided instead)
+# =============================================================================
+
+# Auto-generated capabilities (760+ files, ~50MB)
+# Sample capabilities are in spark_cube/capabilities_samples/
+spark_cube/capabilities/
+
+# Runtime databases and memory stores
+*.db
+*.sqlite
+*.sqlite3
+memory_store.json
+memory.db
+experiences.db
+memory_manager.db
+memory_store.db
+
+# AGI checkpoint data (can be large)
+data/agi_checkpoints/
+data/checkpoints/
+
+# Runtime logs
+*.log
+data/agi_logs/
+healing_progress.log
+agi_*.log
+quick_test.log
+
+# Trained model states (regenerated from training)
+data/trained_cube_*.json
+data/minimal_spark_state.json
+
+# =============================================================================
+# PYTHON ARTIFACTS
+# =============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# LaTeX files (contain outdated projections - see ARTICLE.md for accurate results)
+*.tex
+*.aux
+*.out
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =============================================================================
+# IDE AND EDITOR FILES
+# =============================================================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains (PyCharm, etc.)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# =============================================================================
+# MACOS FILES
+# =============================================================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# =============================================================================
+# TEMPORARY AND BACKUP FILES
+# =============================================================================
+
+# Backup files
+*.bak
+*.backup
+*.broken_backup
+*.tmp
+*.temp
+
+# Output files that can be regenerated
+train_output.txt
+
+# =============================================================================
+# FILES TO KEEP (override above patterns)
+# =============================================================================
+
+# Keep sample capabilities
+!spark_cube/capabilities_samples/
+!spark_cube/capabilities_samples/**
+
+# Keep example data
+!data/example_results/
+!data/example_results/**
+
+# Keep the .gitignore itself
+!.gitignore
