@@ -252,6 +252,7 @@ Consciousness-Based Information Processing. GitHub: TheNIEA/4D-Systems-Framework
 
 **Khoury Howell** — Creator and Architect
 
+- Contact:  [khouryh@theniea.com](khouryh@theniea.com)
 - X (Twitter): [@KhouryHowell](https://x.com/KhouryHowell)
 - GitHub: [TheNIEA](https://github.com/TheNIEA)
 - Website: [TheNIEA.com](https://www.TheNIEA.com)
