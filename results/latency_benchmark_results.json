@@ -1,0 +1,156 @@
+{
+  "test_date": "2026-02-03T13:35:11.010831",
+  "api_results": [
+    {
+      "trial": 1,
+      "query": "What is 2 + 2?",
+      "latency_ms": 2065.237749950029,
+      "response_length": 9
+    },
+    {
+      "trial": 2,
+      "query": "Explain photosynthesis briefly.",
+      "latency_ms": 3562.1825840789825,
+      "response_length": 514
+    },
+    {
+      "trial": 3,
+      "query": "What are the primary colors?",
+      "latency_ms": 3852.276958990842,
+      "response_length": 650
+    },
+    {
+      "trial": 4,
+      "query": "How do computers process information?",
+      "latency_ms": 3963.8856248930097,
+      "response_length": 647
+    },
+    {
+      "trial": 5,
+      "query": "Define machine learning in one sentence.",
+      "latency_ms": 1647.7614169707522,
+      "response_length": 191
+    },
+    {
+      "trial": 6,
+      "query": "What is the capital of France?",
+      "latency_ms": 1647.321292082779,
+      "response_length": 31
+    },
+    {
+      "trial": 7,
+      "query": "Explain gravity.",
+      "latency_ms": 4207.848457968794,
+      "response_length": 668
+    },
+    {
+      "trial": 8,
+      "query": "What causes rain?",
+      "latency_ms": 4157.811917015351,
+      "response_length": 617
+    },
+    {
+      "trial": 9,
+      "query": "How does memory work in the brain?",
+      "latency_ms": 4033.065333031118,
+      "response_length": 621
+    },
+    {
+      "trial": 10,
+      "query": "What is consciousness?",
+      "latency_ms": 4216.0139590268955,
+      "response_length": 686
+    }
+  ],
+  "memory_results": [
+    {
+      "trial": 1,
+      "query": "What is 2 + 2?",
+      "latency_ms": 0.04437495954334736,
+      "results_found": 0
+    },
+    {
+      "trial": 2,
+      "query": "Explain photosynthesis briefly.",
+      "latency_ms": 0.004041008651256561,
+      "results_found": 0
+    },
+    {
+      "trial": 3,
+      "query": "What are the primary colors?",
+      "latency_ms": 0.00100000761449337,
+      "results_found": 0
+    },
+    {
+      "trial": 4,
+      "query": "How do computers process information?",
+      "latency_ms": 0.0006669433787465096,
+      "results_found": 0
+    },
+    {
+      "trial": 5,
+      "query": "Define machine learning in one sentence.",
+      "latency_ms": 0.0006249174475669861,
+      "results_found": 0
+    },
+    {
+      "trial": 6,
+      "query": "What is the capital of France?",
+      "latency_ms": 0.000584055669605732,
+      "results_found": 0
+    },
+    {
+      "trial": 7,
+      "query": "Explain gravity.",
+      "latency_ms": 0.0005830079317092896,
+      "results_found": 0
+    },
+    {
+      "trial": 8,
+      "query": "What causes rain?",
+      "latency_ms": 0.0006249174475669861,
+      "results_found": 0
+    },
+    {
+      "trial": 9,
+      "query": "How does memory work in the brain?",
+      "latency_ms": 0.0005830079317092896,
+      "results_found": 0
+    },
+    {
+      "trial": 10,
+      "query": "What is consciousness?",
+      "latency_ms": 0.000584055669605732,
+      "results_found": 0
+    }
+  ],
+  "comparison": {
+    "api": {
+      "trials": 10,
+      "avg_ms": 3335.34,
+      "std_ms": 1091.6,
+      "min_ms": 1647.32,
+      "max_ms": 4216.01
+    },
+    "memory_retrieval": {
+      "trials": 10,
+      "avg_ms": 0.0054,
+      "std_ms": 0.0137,
+      "min_ms": 0.0006,
+      "max_ms": 0.0444
+    },
+    "cube_processing": {
+      "trials": 10,
+      "avg_ms": 0.0619,
+      "std_ms": 0.0617,
+      "min_ms": 0.0304,
+      "max_ms": 0.225
+    },
+    "head_to_head": {
+      "api_avg_ms": 3335.34,
+      "memory_avg_ms": 0.0054,
+      "latency_reduction_percent": 100.0,
+      "speedup_factor": 621489.5
+    }
+  }
+}
