@@ -194,3 +194,6 @@ train_output.txt
 
 # Keep the .gitignore itself
 !.gitignore
+rubiks-cube/
+*.jsonl
+telemetry.jsonl
