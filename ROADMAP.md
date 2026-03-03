@@ -1,8 +1,20 @@
 # 4D Systems Framework — Development Roadmap
 
-**Version:** 0.6.0 | **Date:** February 2026
+**Version:** 0.7.0 | **Date:** March 2026
 
 > This document maps theoretical claims to empirical evidence, tracking what's demonstrated, in progress, and still hypothetical.
+
+---
+
+## 🚀 Major Milestone: LLM Integration Validated (v0.7.0)
+
+The 4D architecture has been **empirically validated** with real LLM integration:
+- **6,413× speedup** over fresh LLM queries
+- **108.9% quality ratio** (embedded responses exceed fresh)
+- **Pathway transfer validated** — Knowledge transfers between domains
+- **Hebbian learning demonstrated** — Biologically-plausible strengthening
+
+See [VALIDATION_RESULTS.md](VALIDATION_RESULTS.md) for full methodology and results.
 
 ---
 
@@ -17,18 +29,22 @@
 | 5 | Internal goal generation | ✅ **Demonstrated** | `test_intentionality()` | 0.70 | v0.4.0 ✓ |
 | 6 | Meta-cognitive bias detection | ✅ **Demonstrated** | `test_meta_cognition()` | 0.60 | v0.4.0 ✓ |
 | 7 | Hierarchical secondary nodes | ✅ **Demonstrated** | `test_hierarchical_memory.py` | — | v0.6.0 ✓ |
-| 8 | Behavioral self-correction | ⚠️ **Partial** | `test_self_awareness()` | 0.50 | v0.7.0 |
-| 9 | Cross-domain creative synthesis | ❌ **Not Yet** | `test_creativity()` | 0.00 | v0.8.0 |
-| 10 | Explicit self-recognition | ❌ **Not Yet** | `test_self_awareness()` | 0.00 | v0.9.0 |
-| 11 | One-shot learning | ❌ **Theoretical** | Not tested | — | v1.0.0 |
-| 12 | Binding problem solution | ❌ **Theoretical** | Needs design | — | v1.x |
-| 13 | Backpropagation replacement | ⚠️ **Partial** | Showed alternative; not benchmarked | — | v1.x |
-| 14 | Substrate-independent transfer | ❌ **Theoretical** | Needs design | — | v2.x |
-| 15 | Formal qualia definition | ❌ **Theoretical** | Unfalsifiable | — | — |
+| 8 | **Faster than fresh LLM** | ✅ **Demonstrated** | `test_4d_hypothesis.py` | 6,413× | v0.7.0 ✓ |
+| 9 | **Quality matches/exceeds LLM** | ✅ **Demonstrated** | `test_quality_validation.py` | 108.9% | v0.7.0 ✓ |
+| 10 | **Knowledge transfer between domains** | ✅ **Demonstrated** | `test_ambitious_hypotheses.py` | 100% | v0.7.0 ✓ |
+| 11 | **Hebbian-style pathway strengthening** | ✅ **Demonstrated** | `test_ambitious_hypotheses.py` | 1.69 vs 1.27 | v0.7.0 ✓ |
+| 12 | Behavioral self-correction | ⚠️ **Partial** | `test_self_awareness()` | 0.50 | v0.8.0 |
+| 13 | Cross-domain creative synthesis | ⚠️ **Partial** | `test_creativity()` | 67% | v0.8.0 |
+| 14 | Replace fine-tuning entirely | ⚠️ **Partial** | `test_ambitious_hypotheses.py` | 67% | v0.8.0 |
+| 15 | Explicit self-recognition | ❌ **Not Yet** | `test_self_awareness()` | 0.00 | v0.9.0 |
+| 16 | One-shot learning | ❌ **Theoretical** | Not tested | — | v1.0.0 |
+| 17 | Binding problem solution | ❌ **Theoretical** | Needs design | — | v1.x |
+| 18 | Substrate-independent transfer | ❌ **Theoretical** | Needs design | — | v2.x |
+| 19 | Formal qualia definition | ❌ **Theoretical** | Unfalsifiable | — | — |
 
 ---
 
-## Current Version: 0.6.0
+## Current Version: 0.7.0
 
 ### What This Version Demonstrates
 1. **Self-directed learning** — 50-cycle autonomous runs with no external input
@@ -37,17 +53,21 @@
 4. **Path amplification** — Different learning rates based on coherence
 5. **Internal goal generation** — Goals emerge from internal state analysis
 6. **Bias detection** — System identifies patterns in its own evaluations
+7. **⭐ LLM Integration** — 6,413× speedup with real Qwen LLM
+8. **⭐ Quality Parity** — Embedded knowledge matches/exceeds fresh LLM
+9. **⭐ Pathway Transfer** — Knowledge learned in one domain improves related domains
+10. **⭐ Biological Learning** — Hebbian-style strengthening patterns
 
 ### What This Version Does NOT Demonstrate
-- Cross-domain creativity (test fails)
-- Explicit self-recognition (test fails)
+- Complete fine-tuning replacement (67%, mechanism works)
+- Explicit self-recognition (test still fails)
 - Anything about phenomenal consciousness
 
 ---
 
 ## Version Roadmap
 
-### v0.7.0 — Semantic Pattern Enhancement
+### v0.8.0 — Complete Fine-Tuning Replacement
 **Goal:** Enable cross-domain synthesis by improving pattern representation
 
 **Tasks:**

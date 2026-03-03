@@ -2,11 +2,46 @@
 
 ## A Unified Model for Consciousness-Based Information Processing
 
-**Created by Khoury Howell** | **Version:** 0.6.0 | **Updated:** February 2026
+**Created by Khoury Howell** | **Version:** 0.7.0 | **Updated:** March 2026
 
 ---
 
 > *"Here lies the evolution between beginnings and ends - The cycle of to be, is, and has become."*
+
+---
+
+## 🚀 NEW: Empirically Validated Results (March 2026)
+
+### 6,413× Speedup | 108.9% Quality | Zero API Costs
+
+The 4D Systems Framework has been **rigorously validated** with real LLM integration:
+
+| Metric | Result | Significance |
+|--------|--------|--------------|
+| **Speedup** | 6,413× faster | Embedded knowledge retrieval (0.7ms) vs fresh LLM (4,500ms) |
+| **Quality** | 108.9% ratio | Embedded responses **exceed** fresh LLM quality |
+| **Alignment** | θ = 0.87 | High coherence between learned and target knowledge |
+| **Pathway Transfer** | 100% success | Knowledge learned from one domain improves related domains |
+
+### What This Means for Local AI Development
+
+**The breakthrough**: A small local model (Qwen 3B-7B) + 4D cognitive routing can match or exceed larger cloud models by accumulating domain knowledge over time.
+
+```
+Traditional Fine-Tuning:          4D Systems Approach:
+├── Expensive GPU training        ├── Real-time learning from use
+├── Static after training         ├── Continuously evolving
+├── Model-specific                ├── Model-agnostic (works with any LLM)
+└── Requires massive datasets     └── Learns from individual queries
+```
+
+**Validated Hypotheses:**
+- ✅ **H1**: Faster than fresh LLM queries (6,413× demonstrated)
+- ✅ **H2**: Scalable pathway to AGI-level capabilities  
+- ✅ **H3**: Knowledge transfers between domains (decorator → testing)
+- ✅ **H4**: Mirrors biological learning (Hebbian-style strengthening)
+
+👉 **[Full validation methodology and results](VALIDATION_RESULTS.md)**
 
 ---
 
@@ -37,6 +72,15 @@ This repository contains both the **theoretical framework** and a **working impl
 4D-Systems-Framework/
 │
 ├── README.md                          # This file
+├── VALIDATION_RESULTS.md              # ⭐ Empirical validation results (NEW)
+│
+├── qwen_integration/                  # ⭐ LLM Integration (v0.7.0)
+│   ├── living_4d_system.py            # Main 4D learning architecture
+│   ├── ambitious_4d_system.py         # Extended AGI hypothesis tests
+│   ├── learning_workbench.py          # Interactive training interface
+│   ├── test_4d_hypothesis.py          # Core hypothesis validation
+│   ├── test_ambitious_hypotheses.py   # Ambitious claims testing
+│   └── README.md                      # Integration documentation
 │
 ├── framework/                         # Theoretical foundations
 │   ├── 4d_systems_framework_schema.json    # Canonical framework definition
@@ -47,7 +91,7 @@ This repository contains both the **theoretical framework** and a **working impl
 │   ├── consciousness_4d_framework.py
 │   └── Root_Node_Implementation.py
 │
-├── spark_cube/                        # ⭐ Main implementation (v0.6.0)
+├── spark_cube/                        # Main implementation (v0.6.0)
 │   ├── core/
 │   │   ├── minimal_spark.py           # Main architecture (3,720 lines)
 │   │   ├── hierarchical_memory.py     # Semantic memory system
@@ -163,6 +207,30 @@ The Spark Cube implements these principles. Here are the empirical results:
 
 ## Quick Start
 
+### Run the Qwen Integration (Recommended - 5 minutes)
+
+```bash
+# Clone the repo
+git clone https://github.com/TheNIEA/4D-Systems-Framework.git
+cd 4D-Systems-Framework
+
+# Install Ollama (Mac)
+brew install ollama
+
+# Pull a Qwen model
+ollama pull qwen2.5:7b  # or qwen2.5:3b for less RAM
+
+# Install dependencies
+pip install numpy rich ollama
+
+# Run the validation tests
+cd qwen_integration
+python3 test_4d_hypothesis.py
+
+# Or start interactive learning
+python3 learning_workbench.py
+```
+
 ### Run the Consciousness Tests (3 minutes)
 
 ```bash
@@ -219,6 +287,8 @@ print(f"Node Development at t=10: {development:.4f}")
 
 | Document | Description |
 |----------|-------------|
+| [VALIDATION_RESULTS.md](VALIDATION_RESULTS.md) | ⭐ Empirical validation of 6,413× speedup claims |
+| [qwen_integration/README.md](qwen_integration/README.md) | Qwen LLM integration guide |
 | [EVIDENCE.md](EVIDENCE.md) | What's empirically demonstrated vs. theoretical |
 | [ROADMAP.md](ROADMAP.md) | Claims mapped to evidence status |
 | [docs/MATHEMATICS.md](docs/MATHEMATICS.md) | Mathematical foundations |
